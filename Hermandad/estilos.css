@@ -14,7 +14,7 @@ nav ul li a:hover{border-bottom:3px solid #0058a5;margin:0;padding:0}
 #contenedor #saludo{display:inline-block;float:left;margin:.2em;padding:.2em;position:relative;text-align:left;width:60%;}
 #contenedor #saludo h3{font-family:"Kaushan Script",Arial;font-size:1.4em}
 #contenedor #texto{display:inline-block;width:60%;}
-#contenedor #texto .img{width:50%}
+#contenedor #texto .img{border-radius:100%;box-shadow:6px 0 0 0 rgba(0,0,0,0.3);display:inline;float:left;width:50%}
 #contenedor #izquierda{float:right;margin:1em .3em;width:25%;z-index:1;}
 #contenedor #izquierda #video{display:inline-block;padding:.3em;width:100%;}
 #contenedor #izquierda #video h3{color:#000;font-family:"Kaushan Script",Arial;font-size:.8em;font-weight:none;width:100%}
@@ -23,7 +23,9 @@ nav ul li a:hover{border-bottom:3px solid #0058a5;margin:0;padding:0}
 #contenedor #izquierda #admision #admision-item{margin:.2em 0 0 0;position:relative;top:-10px;width:100%;}
 #contenedor #izquierda #admision #admision-item a{color:#000;text-decoration:none}
 #contenedor #izquierda #admision .src{border-radius:20px;width:20%}
-#contenedor #pie{background:#0e1132;display:inline-block;color:#fff;font-size:1.2em;width:100%}
+#contenedor #pie{background:#0e1132;display:inline-block;color:#fff;font-size:1.2em;width:100%;}
+#contenedor #pie a{color:#fff;text-decoration:none}
+#contenedor #pie a:hover{font-family:"Diplomata SC",Arial}
 @media screen and (min-width:768px){body{font-size:10px;margin:0 auto;max-width:1200px;}
 body #item h2{font-size:1.3em}
 #contenedor{width:96%}

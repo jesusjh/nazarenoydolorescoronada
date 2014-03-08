@@ -21,9 +21,9 @@ header
 			width 50%
 			z-index 1
 
-			h2
+			h1
 				font-family "Diplomata SC", Arial
-				font-size 1.0em
+				font-size 1.3em
 				font-weight bold
 
 
@@ -83,31 +83,7 @@ nav ul li a:hover
 	position relative
 	width 96%
 
-	#saludo
-		display inline-block
-		float left
-		margin 0.2em
-		padding 0.2em
-		position relative
-		text-align left
-		width 60%
-
-		h3
-			font-family "Kaushan Script", Arial
-			font-size 1.4em
-
-	#texto
-		display inline-block
-		width 60%
-
-		.img
-			border-radius 100%
-			box-shadow 6px 0 0 0 rgba(0,0,0,0.3)
-			display inline 
-			float left
-			width 50%
-
-	#izquierda
+#izquierda
 		float right
 		margin 1em 0.3em
 		width  25%
@@ -148,18 +124,52 @@ nav ul li a:hover
 				border-radius 20px
 				width 20%
 
-	#pie
-		background #0e1132
-		display inline-block
+
+		#capilla
+			text-align left
+			
+			h3
+				border-top 1px solid black
+				border-decoration none
+				font-size 0.7em
+				font-family "Diplomata SC", Arial
+				font-weight normal
+				width 100%
+
+		#cultos
+			background red
+			display inline-block
+			padding 0.2em
+			width 100%
+
+			h3
+				font-family "Diplomata SC", Arial
+				font-size 0.8em
+
+			.estilos
+				background #ccf
+				position relative
+				width 40%
+
+			.stil
+				background #ccd
+				display inline-block
+			 	right 0px
+				text-align left
+				width 20%
+			
+
+#pie
+	background #0e1132
+	display inline-block
+	color white
+	font-size 1.2em
+	vertical-align top
+	width 100%
+
+	a 
 		color white
-		font-size 1.2em
-		width 100%
+		text-decoration none
 
-		a 
-			color white
-			text-decoration none
-
-		a:hover
-			font-family "Diplomata SC", Arial
-
-@import"responsive.styl"
+	a:hover
+		font-family "Diplomata SC", Arial
