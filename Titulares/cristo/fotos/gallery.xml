@@ -1,0 +1,23 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<simpleviewerGallery maxImageWidth="1024" maxImageHeight="1024" textColor="0xCCCCCC" frameColor="0x000000" bgColor="0x000000" captionTextColor="0xCCCCCC" frameWidth="20" stagePadding="40" thumbnailColumns="3" thumbnailRows="6" navPosition="left" title="fotos" enableRightClickOpen="true" backgroundImagePath="" imagePath="" thumbPath="" photoDuration="5000">
+<image>
+<filename>imagen-1.jpg</filename>
+<Caption/>
+<Comments/>
+</image>
+<image>
+<filename>IMG-20140309-WA0004.jpg</filename>
+<Caption/>
+<Comments/>
+</image>
+<image>
+<filename>IMG-20140309-WA0007.jpg</filename>
+<Caption/>
+<Comments/>
+</image>
+<image>
+<filename>P4060004.jpg</filename>
+<Caption/>
+<Comments/>
+</image>
+</simpleviewerGallery>

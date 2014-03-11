@@ -1,0 +1,12 @@
+header{background:#000;color:#fff;display:inline-block;margin:.1em;position:relative;vertical-align:top;width:96%;}
+header #item{background:#f00;display:inline;position:relative;top:1em;width:50%;z-index:1;}
+header #item h1{font-family:"Diplomata SC",Arial;font-size:1.3em;font-weight:bold}
+header #avatar{background:#f00;width:100%;}
+header #avatar #logo{float:right;width:30%}
+header #avatar #Logo{float:left;left:0;width:32%}
+nav{background:#808080;border-bottom:4px solid transparent;border-left:10px solid #000;border-top:4px solid #000;border-bottom:4px solid transparent;border-right:10px solid #000;border-top:4px solid transparent;color:#fff;display:inline-block;font-size:1em;float:left;text-align:center;vertical-align:top;width:20%}
+nav ul{list-style:none;margin:0;padding:0 .8em}
+nav ul li{display:inline-block;margin:0 1.2em 0 0;vertical-align:top}
+nav ul li a{color:#fff;font-weight:normal;display:block;padding:0 0}
+nav ul li a:hover{border-bottom:3px solid #0058a5;margin:0;padding:0}
+#contenedor{color:#000;display:inline-block;position:relative;width:96%}
