@@ -32,3 +32,7 @@ nav ul li a:hover{border-bottom:3px solid #0058a5;margin:0;padding:0}
 #pie{background:#0e1132;display:inline-block;color:#fff;font-size:1.2em;vertical-align:top;width:100%;}
 #pie a{color:#fff;text-decoration:none}
 #pie a:hover{font-family:"Diplomata SC",Arial}
+@media screen and (min-width:768px){body{font-size:10px;margin:0 auto;max-width:1200px;}
+body #item h2{font-size:1.3em}
+#contenedor{width:96%}
+}
