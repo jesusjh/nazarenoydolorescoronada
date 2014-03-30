@@ -11,8 +11,10 @@ nav ul li{display:inline-block;margin:0 1.2em 0 0;vertical-align:top}
 nav ul li a{color:#fff;font-weight:normal;display:block;padding:0 0}
 nav ul li a:hover{border-bottom:3px solid #0058a5;margin:0;padding:0}
 #contenedor{background:#fff;color:#000;display:inline-block;position:relative;width:96%;}
-#contenedor #texto{display:inline-block;font-size:1.1em;float:left;margin:.3em;margin-top:1em;padding:.3em;text-align:center;width:60%;}
+#contenedor #texto{display:inline-block;font-size:1.1em;float:left;margin:.3em;margin-top:1em;padding:.3em;text-align:center;width:55%;}
 #contenedor #texto h3{font-family:"Kaushan Script",Arial;font-size:1.2em;text-align:center;width:60%}
+#contenedor #mapa{display:inline-block;float:left;margin-left:.3em;padding:.3em;width:50%;}
+#contenedor #mapa #map{width:90%}
 #izquierda{float:right;margin:1em .3em;width:25%;z-index:1;}
 #izquierda #video{display:inline-block;padding:.3em;width:100%;}
 #izquierda #video h3{color:#000;font-family:"Kaushan Script",Arial;font-size:.8em;font-weight:none;width:100%}
@@ -31,3 +33,7 @@ nav ul li a:hover{border-bottom:3px solid #0058a5;margin:0;padding:0}
 #pie{background:#0e1132;display:inline-block;color:#fff;font-size:1.2em;vertical-align:top;width:100%;}
 #pie a{color:#fff;text-decoration:none}
 #pie a:hover{font-family:"Diplomata SC",Arial}
+@media screen and (min-width:768px){body{font-size:10px;margin:0 auto;max-width:1200px;}
+body #item h2{font-size:1.3em}
+#contenedor{width:96%}
+}
