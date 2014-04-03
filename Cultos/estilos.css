@@ -11,7 +11,13 @@ nav ul li{display:inline-block;margin:0 1.2em 0 0;vertical-align:top}
 nav ul li a{color:#fff;font-weight:normal;display:block;padding:0 0}
 nav ul li a:hover{border-bottom:3px solid #0058a5;margin:0;padding:0}
 #contenedor{background:#fff;color:#000;display:inline-block;position:relative;width:96%;}
-#contenedor #texto{background:#f00;display:inline-block;float-leftposition:relative;text-align:left;width:70%}
+#contenedor #texto-item{background:#ccc;display:inline-block;float:left;margin:.3em;position:relative;text-align:center;width:40%;}
+#contenedor #texto-item h2{font-family:"Kaushan Script",Arial;font-size:1.5em}
+#contenedor #texto{display:inline-block;margin-top:.4em;position:relative;vertical-align:top;width:70%;}
+#contenedor #texto h3{font-family:"Kaushan Script",Arial;font-size:1.2em;margin:3em;margin-top:0}
+#contenedor #texto .estilo{font-family:"Diplomata SC",Arial}
+#contenedor #texto .negrita{font-size:1.3em;text-align:left}
+#contenedor #texto .color{font-size:1.2em;font-weight:bold;text-align:left}
 #izquierda{float:right;margin:1em .3em;width:25%;z-index:1;}
 #izquierda #video{display:inline-block;padding:.3em;width:100%;}
 #izquierda #video h3{color:#000;font-family:"Kaushan Script",Arial;font-size:.8em;font-weight:none;width:100%}
@@ -22,7 +28,7 @@ nav ul li a:hover{border-bottom:3px solid #0058a5;margin:0;padding:0}
 #izquierda #admision .src{border-radius:20px;width:20%}
 #izquierda #capilla{text-align:left;}
 #izquierda #capilla h3{border-top:1px solid #000;border-decoration:none;font-size:.7em;font-family:"Diplomata SC",Arial;font-weight:normal;width:100%}
-#izquierda #cultos{background:#f00;display:inline-block;padding:.2em;width:100%;}
+#izquierda #cultos{display:inline-block;padding:.2em;width:100%;}
 #izquierda #cultos h3{font-family:"Diplomata SC",Arial;font-size:.8em}
 #izquierda #cultos .estilos{background:#ccf;position:relative;width:40%}
 #izquierda #cultos .stil{background:#ccd;display:inline-block}
