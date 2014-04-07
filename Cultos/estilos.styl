@@ -1,44 +1,51 @@
-body
-	background #0e1132
-	font-size 10px
-	margin  0px
-	text-align center
-
 header
 	background black
 	color white
 	display  inline-block
 	margin 0.1em
 	position relative
+	text-align center
 	vertical-align top
 	width 96%
 
 	#item
 			background red
+			color white
 			display inline
 			position relative
 			top 1em
 			width 50%
-			z-index 1
+			z-index 2
 
 			h1
+				color white
 				font-family "Diplomata SC", Arial
-				font-size 1.3em
+				font-size 0.9em
 				font-weight bold
 
 
 	#avatar
-		background red
-		width 100%
+		display inline-block
+		float left
+		margin-left 0px
+		position relative
+		width 20%
 
-		#logo
-			float right
-			width 30%
-
-		#Logo 
+		.logo
 			float left
-			left 0px
-			width 32%
+			width 100%
+
+	#logo
+		display inline-block
+		float right
+		margin-right 0px
+		width 20%
+
+		.logo
+			float right
+			width 100%
+
+
 
 nav
 	background #0e1132
@@ -78,59 +85,46 @@ nav ul li a:hover
 
 #contenedor
 	background #ffffff
-	color black
 	display inline-block
 	position relative
-	width 96%
+	width 99%
 
-	#texto-item
-		background #ccc
-		display inline-block
+	h1
 		float left
+		font-family "Diplomata SC", Arial
+		font-size 1.1em
 		margin 0.3em
-		position relative
-		text-align center
-		width 40%
 
-		h2
-			font-family "Kaushan Script", Arial
-			font-size 1.5em
+	h3 
+		font-family "Kaushan Script", Arial
 
 	#texto 
+		background red
 		display inline-block
-		margin-top 0.4em
+		float left
 		position relative
-		vertical-align top
-		width 70%
+		width 60%
 
 		h3
-			font-family "Kaushan Script", Arial
-			font-size 1.2em
-			margin 3em
-			margin-top 0px
+			float left
 
-		.estilo
-			font-family "Diplomata SC", Arial
+		.texto-iten
+			display inline-block
 
-		.negrita
-			font-size 1.3em
-			text-align left
-
-		.color 
-			font-size 1.2em
-			font-weight bold
-			text-align left
 
 
 #izquierda
 		float right
 		margin 1em 0.3em
-		width  25%
+		top 0px
+		width  100%
 		z-index 1
 
 		#video
 			display inline-block
+			float right
 			padding 0.3em
+			margin-right 0.4em
 			width 100%
 
 			h3
@@ -170,9 +164,10 @@ nav ul li a:hover
 			h3
 				border-top 1px solid black
 				border-decoration none
-				font-size 0.7em
+				font-size 0.3em
 				font-family "Diplomata SC", Arial
 				font-weight normal
+				text-align left
 				width 100%
 
 		#cultos
@@ -211,5 +206,3 @@ nav ul li a:hover
 
 		a:hover
 			font-family "Diplomata SC", Arial
-
-@import"responsive.styl"

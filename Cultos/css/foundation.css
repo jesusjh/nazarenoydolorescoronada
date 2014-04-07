@@ -36,10 +36,10 @@ html, body {
 
 html,
 body {
-  font-size: 100%; }
+  font-size: 14px; }
 
 body {
-  background: white;
+  background: #243140;
   color: #222222;
   padding: 0;
   margin: 0;
@@ -48,13 +48,14 @@ body {
   font-style: normal;
   line-height: 1;
   position: relative;
+  text-align:  center;
   cursor: default; }
 
 a:hover {
   cursor: pointer; }
 
 img {
-  max-width: 100%;
+  max-width: 50%;
   height: auto; }
 
 img {
@@ -168,10 +169,10 @@ select {
 
 .column,
 .columns {
+  background:  red;
   padding-left: 0.9375rem;
   padding-right: 0.9375rem;
-  width: 100%;
-  float: left; }
+  width: 40%; }
 
 @media only screen {
   .column.small-centered,
