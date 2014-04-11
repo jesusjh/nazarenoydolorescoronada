@@ -11,13 +11,9 @@ nav ul li{display:inline-block;margin:0 1.2em 0 0;vertical-align:top}
 nav ul li a{color:#fff;font-weight:normal;display:block;padding:0 0}
 nav ul li a:hover{border-bottom:3px solid #0058a5;margin:0;padding:0}
 #contenedor{background:#fff;color:#000;display:inline-block;position:relative;width:96%;}
-#contenedor #texto{display:inline-block;float:left;margin:.3em;width:67%;}
-#contenedor #texto h1{border-bottom:1px solid #000;font-family:"Kaushan Script",Arial;text-align:left;width:100%}
-#contenedor #texto h3{display:inline-block;font-family:"Kaushan Script",Arial;margin-top:1em;text-align:center;width:100%}
-#contenedor #texto .item{display:inline-block;padding:.4em;position:relative;text-align:left;vertical-align:top;width:30%;}
-#contenedor #texto .item h2{display:inline-block;font-family:"Diplomata SC",Arial;font-size:.7em;font-weight:bold}
-#contenedor #texto .item #pdf{width:50%;}
-#contenedor #texto .item #pdf a{font-size:1.1em}
+#contenedor #texto{background:#ccc;display:inline-block;font-size:1em;float:left;margin:1em .3em;text-align:left;width:60%;}
+#contenedor #texto h2{font-family:"Kaushan Script",Arial}
+#contenedor #texto b{font-family:"Diplomata SC",Arial}
 #izquierda{float:right;margin:1em .3em;width:25%;z-index:1;}
 #izquierda #video{display:inline-block;padding:.3em;width:100%;}
 #izquierda #video h3{color:#000;font-family:"Kaushan Script",Arial;font-size:.8em;font-weight:none;width:100%}
@@ -36,3 +32,7 @@ nav ul li a:hover{border-bottom:3px solid #0058a5;margin:0;padding:0}
 #pie{background:#0e1132;display:inline-block;color:#fff;font-size:1.2em;vertical-align:top;width:100%;}
 #pie a{color:#fff;text-decoration:none}
 #pie a:hover{font-family:"Diplomata SC",Arial}
+@media screen and (min-width:768px){body{font-size:10px;margin:0 auto;max-width:1200px;}
+body #item h2{font-size:1.3em}
+#contenedor{width:96%}
+}
