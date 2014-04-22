@@ -8,17 +8,46 @@
         <meta name="viewport" content="width=device-width, initial-scale=1" />
 
         <link rel="stylesheet" href="css/normalize.min.css" />
-        <link rel="stylesheet" type="text/css" href="normalize.css">
+        <link rel="stylesheet" type="text/css" href="normalize.css" />
         <link rel="stylesheet" href="css/main.css" />
+        <link rel="stylesheet" type="text/css" href="estilos.css" />
+
+        <link rel="stylesheet" href="css/foundation.css" />
+        <script src="js/vendor/modernizr.js"></script>
 
         <script src="js/vendor/modernizr-2.6.2-respond-1.1.0.min.js"></script>
     </head>
     <body>
       <header>
-          <img src="img/Logos/logo2.png" class="imagen">
+          <img src="img/Logos/logo2.png" id="image">
             <h1>Cofradia Ntro. Padre Jesus Nazareno y Ntra. Sra. de los Dolores Coronada</h1>
-          <img src="img/Logos/logo1.png" class="imagen">
+          <img src="img/Logos/logo1.png" id="imagen">
+          <nav>
+      <li class="parent"><a href="#">Cristalab</a>
+         <ul>
+            <li><a href="#">Blogs</a></li>
+            <li><a href="#">Foros</a></li>
+            <li><a href="#">Tutoriales</a></li>
+            <li ><a href="#">Cursos</a></li>
+         </ul>
+      </li>
+      <li><a href="#">Mejorando.la</a></li>
+      <li><a href="#">L4C</a></li>
+      <li class="parent"><a href="#">Mas de Cristalab</a>
+         <ul>
+            <li><a href="#">Publica un tutorial</a></li>
+            <li><a href="#">¿Qué es Cristalab?</a></li>
+            <li><a href="#">Anime</a></li>
+         </ul>
+      </li>
+   </nav>
       </header>
         <script src="js/main.js"></script>
+
+        <script src="js/vendor/jquery.js"></script>
+        <script src="js/foundation.min.js"></script>
+        <script>
+          $(document).foundation();
+        </script>
     </body>
 </html>
