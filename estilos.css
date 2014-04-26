@@ -10,9 +10,20 @@ body header nav ul li a{color:#000;font-family:"Dancing Script",Arial;font-weigh
 body header nav ul li a:hover{border-bottom:1px solid #0058a5;margin:0;padding:0}
 body header nav #logo{display:inline-block;border-radius:50%;display:inline;float:left;left:0;margin:0 0 0 0;postion:relative;top:1em;text-decoretion:none;width:40px}
 body #contenedor{background:#fff;display:inline-block;postion:relative;width:100%;z-index:1em;}
-body #contenedor h2{color:#000;font-family:"Pinyon Script",Arial;font-size:1em;float:left}
-body #contenedor #text{background:#808080;display:inline-block;float:left;font-size:1em;postion:relative;width:70%;}
-body #contenedor #text .avatar{background:#f00;display:inline-block;padding:.3em;postion:relative;vertical-align:top;width:40%;}
-body #contenedor #text .avatar h3{font-size:1em;font-family:"Pinyon Script",Arial}
-body #contenedor #text .avatar a{color:#000;font-family:"Dancing Script",Arial;text-decoretion:none;width:20%}
-body #contenedor #text .avatar a:hover{font-size:1.2em;text-decoretion:none}
+body #contenedor h2{color:#000;font-family:"Pinyon Script",Arial;font-size:1em;float:left;margin:.3em;padding:.3em;text-align:left;width:90%}
+body #contenedor #text{background:#aaa;display:inline-block;float:left;font-size:1em;postion:relative;width:60%;}
+body #contenedor #text .avatar{background:#000;display:inline-block;padding:.4em;postion:absolute;vertical-align:top;width:40%;}
+body #contenedor #text .avatar .png{float:left;margin-top:1em;width:20%}
+body #contenedor #text .avatar h3{background:#f00;font-family:"Pinyon Script",Arial;font-size:1em;float:right;text-align:center;width:80%}
+body #contenedor #text .avatar a{color:#fff;display:inline-block;margin:0 1em}
+body #contenedor #spam{background:#f00;display:inline-block;float:right;postion:relative;text-align:center;width:40%;}
+body #contenedor #spam .lateral{background:#ddd;display:inline-block;font-size:.8em;float:left;margin:.2em .3em;padding:.3em .3em;text-align:left;width:60%;}
+body #contenedor #spam .lateral a{color:#000;text-decoretion:none}
+body #contenedor #pie{background:#000;display:inline-block;postion:relative;width:100%;}
+body #contenedor #pie #redes{float:right;display:inline-block;width:40%;}
+body #contenedor #pie #redes .social{vertical-align:top;width:10%}
+body #contenedor #pie #avisos{background:#eee;margin:.3em .3em;width:80%;}
+body #contenedor #pie #avisos a{color:#000;font-family:"Pinyon Script",Arial;font-size:1em;padding:.6em}
+body #contenedor #pie #avisos a:hover{font-size:1.3em}
+body #contenedor #pie #presentacion{background:#ccd;display:inline-block;float:left;height:auto;width:60%;}
+body #contenedor #pie #presentacion #medalla{border-radius:50%;float:left;width:15%}

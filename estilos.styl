@@ -85,15 +85,17 @@ body
 		z-index 1em
 
 		h2
-			background grey
 			color black
 			font-family "Pinyon Script", Arial
 			font-size 1.0em
 			float left
+			margin 0.3em
+			padding 0.3em
+			text-align left
 			width 90%
 
 		#text 
-			background grey 
+			background #aaa
 			display inline-block
 			float left
 			font-size 1.0em
@@ -101,33 +103,94 @@ body
 			width 60%
 
 			.avatar
-				background red
+				background black
 				display inline-block
-				padding 0.3em
-				postion relative
+				padding 0.4em
+				postion absolute
 				vertical-align top
 				width 40%
 
-				h3
-					font-size 1.0em
-					font-family "Pinyon Script", Arial
-
-				a
-					color black
-					font-family "Dancing Script", Arial
-					text-decoretion none
+				.png 
+					float left
+					margin-top 1em
 					width 20%
 
-				a:hover
-					font-size 1.2em
+				h3
+					background red
+					font-family "Pinyon Script", Arial
+					font-size 1.0em
+					float right
+					text-align center
+					width 80%
+
+				a 
+					color white
+					display inline-block
+					margin 0 1em
+
+		#spam
+			background red
+			display inline-block
+			float right
+			postion relative
+			text-align center
+			width 40%
+
+			.lateral
+				background #ddd
+				display inline-block
+				font-size 0.8em
+				float left
+				margin 0.2em 0.3em
+				padding 0.3em 0.3em
+				text-align left
+				width 60%
+
+				a 
+					color black
 					text-decoretion none
 
-			#spam
-				background red
-				display inline-block
+		#pie
+			background black
+			display inline-block
+			postion relative
+			width 100%
+
+			#redes
 				float right
-				postion relative
+				display inline-block
 				width 40%
+
+				.social
+					vertical-align top
+					width 10%
+
+			#avisos
+				background #eee
+				margin 0.3em 0.3em
+				width 80%
+
+				a 
+					color black
+					font-family "Pinyon Script", Arial
+					font-size 1.0em
+					padding 0.6em
+
+				a:hover
+					font-size 1.3em
+
+			#presentacion
+				background #ccd
+				display inline-block
+				float left
+				height auto
+				width 60%
+
+				#medalla
+					border-radius 50%
+					float left
+					width 15%
+
 
 
 
