@@ -100,7 +100,7 @@ body
 			float left
 			font-size 1.0em
 			postion relative
-			width 60%
+			width 70%
 
 			.avatar
 				background black
@@ -108,7 +108,7 @@ body
 				padding 0.4em
 				postion absolute
 				vertical-align top
-				width 40%
+				width 25%
 
 				.png 
 					float left
@@ -128,13 +128,37 @@ body
 					display inline-block
 					margin 0 1em
 
+			#contenido
+				background #eee
+				color black
+				display inline-block
+				width 100%
+
+				.noticias
+					background #ddd
+					display inline-block
+					padding 1em
+					postion relative
+					width 40%
+
+					h3
+						color #5D5197
+
+					a 
+						color black
+
+					.imagenes
+						border-radius 40%
+						height 70px
+						width 70%
+
 		#spam
 			background red
 			display inline-block
 			float right
 			postion relative
 			text-align center
-			width 40%
+			width 30%
 
 			.lateral
 				background #ddd
@@ -149,6 +173,25 @@ body
 				a 
 					color black
 					text-decoretion none
+
+			#calendario
+				display inline-block
+				float left
+				margin 0em 1em
+				margin-left 0px
+				width 100%
+
+				#calen 
+					display inline-block
+					postion absolute
+					font-size 1.2em
+					float left
+					width 80%
+
+			#pdf
+				background #ddf
+				display inline-block
+				width 100%
 
 		#pie
 			background black
@@ -166,12 +209,11 @@ body
 					width 10%
 
 			#avisos
-				background #eee
 				margin 0.3em 0.3em
 				width 80%
 
 				a 
-					color black
+					color white
 					font-family "Pinyon Script", Arial
 					font-size 1.0em
 					padding 0.6em
@@ -180,16 +222,67 @@ body
 					font-size 1.3em
 
 			#presentacion
-				background #ccd
 				display inline-block
 				float left
 				height auto
+				vertical-align top
 				width 60%
 
 				#medalla
 					border-radius 50%
 					float left
-					width 15%
+					margin 0em 0.6em
+					postion relative
+					width 12% 
+
+			#enlaces
+				border-bottom 1px solid white
+				border-top 1px solid white
+				display inline-block
+				font-size 1.0em
+				postion relative
+				text-align center
+				width 90%
+
+				#izquierda, #centro, #derecha
+					vertical-align top
+					width 50%
+
+					.enlace 
+						display inline-block
+						font-size 0.9em
+						padding 2em
+						text-align center
+						vertical-align top
+						width 5%
+
+						h3
+							font-family "Pinyon Script", Arial
+							font-size 1.5em
+
+						a 
+							color white
+							font-family 1.0em
+
+			#calle
+				display inline-block
+				height auto
+				vertical-align top
+				width 90%
+
+				#contacto
+					display inline-block 
+					top 0px
+					width 80%
+
+					a 
+						color white
+						font-size 1.0em
+
+					a:hover
+						color #aad
+						font-size 1.2em
+
 
 
 
