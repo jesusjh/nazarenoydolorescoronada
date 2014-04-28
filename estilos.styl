@@ -95,20 +95,20 @@ body
 			width 90%
 
 		#text 
-			background #aaa
 			display inline-block
 			float left
 			font-size 1.0em
+			padding-top 1em
 			postion relative
 			width 70%
 
 			.avatar
-				background black
+				color black
 				display inline-block
-				padding 0.4em
+				padding 0.4em 
 				postion absolute
 				vertical-align top
-				width 25%
+				width 40%
 
 				.png 
 					float left
@@ -116,7 +116,6 @@ body
 					width 20%
 
 				h3
-					background red
 					font-family "Pinyon Script", Arial
 					font-size 1.0em
 					float right
@@ -124,18 +123,68 @@ body
 					width 80%
 
 				a 
-					color white
+					color black
 					display inline-block
 					margin 0 1em
 
+			#publicaciones
+				display inline-block
+				vertical-align top
+				width 85%
+
+				#video
+					border-top 1px solid black
+					display inline-block
+					float left
+					postion relative
+					margin 0.3em
+					width 45%
+
+					#youtube
+						width 50%
+
+				#fotos
+					border-top 1px solid black
+					display inline-block
+					float right
+					margin 0.3em
+					padding 0.3em
+					width 45%
+
+					#galeria
+						width 54%
+
+			#especiales
+				display inline-block
+				padding 0.3em
+				vertical-align top
+				width 80%
+
+				h3 
+					font-family "Pinyon Script", Arial
+					width 80%
+
+				#juan
+					float left 
+					width 45%
+
+					.pablo
+						width 50%
+
+				#coronacion
+					float right
+					width 45%
+
+					.pablo
+						width 40%
+
+
 			#contenido
-				background #eee
 				color black
 				display inline-block
 				width 100%
 
 				.noticias
-					background #ddd
 					display inline-block
 					padding 1em
 					postion relative
@@ -153,7 +202,6 @@ body
 						width 70%
 
 		#spam
-			background red
 			display inline-block
 			float right
 			postion relative
@@ -161,7 +209,6 @@ body
 			width 30%
 
 			.lateral
-				background #ddd
 				display inline-block
 				font-size 0.8em
 				float left
@@ -177,7 +224,7 @@ body
 			#calendario
 				display inline-block
 				float left
-				margin 0em 1em
+				margin 1em 1em
 				margin-left 0px
 				width 100%
 
@@ -189,9 +236,45 @@ body
 					width 80%
 
 			#pdf
-				background #ddf
+				color black
 				display inline-block
-				width 100%
+				float left
+				margin 1em 0em
+				postion relative
+				text-align left
+				width 65%
+
+				h3
+					color black
+					font-size 1em
+					float left
+					font-family "Pinyon Script", Arial
+					padding 0.4em
+					width 80%
+
+				a 
+					color black 
+					font-size 1.0em
+					margin 1em 0em
+
+		#actualidad
+			background #ccc
+			display inline-block
+			width 100%
+
+			#iglesia
+				display inline-block
+				float left
+				width 50%
+
+			#formaulrio
+				background #eed
+				display inline-block
+				width 50%
+
+				#formulario-item
+					width 100%
+					
 
 		#pie
 			background black
@@ -283,8 +366,7 @@ body
 						color #aad
 						font-size 1.2em
 
-
-
+@import"responsive.styl"
 
 
 				
