@@ -78,79 +78,84 @@ body
 
 	#contenedor
 		background white
+		color black
 		display inline-block
 		postion relative
 		width 100%
 		z-index 1em
 
-		h2
-			color black
-			font-family "Pinyon Script", Arial
-			font-size 1.0em
+		#texto 
+			display inline-block
 			float left
-			margin 0.3em
-			padding 0.3em
-			text-align left
-			width 90%
-			
-		#contenido
-			display inline-block 
-			color black
-			float left
-			margin 0.3em 0.3em
-			text-align left
+			padding 0.3em 0.3em
+			postion relative
 			width 70%
 
-			#derecha 
-				display inline-block
-				margin 0.1em 0.3em
-				padding 0.2em
-				width 90%
+			h2
+				font-family "Pinyon Script", Arial
+				float left
 
-				#imagen
+			.derecha
+				display inline-block
+				float left
+				padding 0.3em
+				text-align left
+				width 70%
+
+				.texto-item
 					float left
-					width 40%
+					width 60%
 
-					.cristo
-						width 50%
-
-			#izquierda 
-				display inline-block
-				margin 0.1em 0.3em
-				padding 0.5em
-				width 90%
-
-				#imagen
+				.src
 					float right
-					width 40%
+					postion relative
+					width 30%
 
-					.cristo
-						width 50%
+			.izquierda
+				display inline-block
+				float right
+				margin 0.3em
+				padding 0.3em 0.3em
+				width 70%
+
+				.texto-item
+					float left
+					text-align left
+					width 65%
+
+				h3
+					font-family "Pinyon Script", Arial
+
+				.src
+					float right
+					width 30%
 
 		#lateral
-			display inline-block
-			float right
-			padding 0.3em
-			postion relative
-			text-align left
-			width 22%
+				display inline-block
+				float right
+				padding 0.3em
+				postion relative
+				text-align left
+				width 20%
 
-			h2
-				border-bottom 1px solid black
-				font-size 1.1em
-				float left
-				margin 0em 0em 0em 0em
+				h2
+					border-bottom 1px solid black
+					font-family "Pinyon Script", Arial
+					font-size 1.1em
+					float left
+					margin 0em 0em 0em 0em
 
-			a 
-				color black
-				border-bottom 1px solid black
-				display block
-				padding 0.2em
-				text-decoretion none
+				a 
+					color black
+					border-bottom 1px solid black
+					display inline-block
+					padding 0.2em
+					text-decoretion none
 
-		#pie
+	#pie
 			background black
 			display inline-block
+			float left
 			postion relative
 			width 100%
 
@@ -195,11 +200,13 @@ body
 				border-top 1px solid white
 				display inline-block
 				font-size 1.0em
+				float left
 				postion relative
 				text-align center
 				width 90%
 
 				#izquierda, #centro, #derecha
+					padding 0.3em
 					vertical-align top
 					width 50%
 
@@ -221,6 +228,8 @@ body
 
 			#calle
 				display inline-block
+				float left
+				font-size 0.7em
 				height auto
 				vertical-align top
 				width 90%
