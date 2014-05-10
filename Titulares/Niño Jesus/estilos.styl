@@ -98,17 +98,33 @@ body
 			background red 
 			display inline-block
 			postion relative
-			vertical-align top
 			width 65%
 
-			#texto-tiem
+			.texto-item
+				background #eed
+				display inline-block
+				margin 0.3em
+				padding 0.3em
 				text-align left
-				vertical-align top
+				width 90%
 
-			.src
-				display inline
-				vertical-align top
-				width 34%
+				.src
+					float left
+					margin 0.5em 0.3em
+					width 35%
+
+			.item
+				background #eed
+				display inline-block
+				margin 0.3em
+				padding 0.3em
+				text-align left
+				width 90%
+
+				.jpg
+					float right
+					margin 0.5em 0.3em
+					width 35%
 
 		#lateral
 			display inline-block
@@ -220,3 +236,5 @@ body
 					a:hover
 						color #aad
 						font-size 1.2em
+
+@import"responsive.styl"
