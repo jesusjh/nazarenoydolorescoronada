@@ -10,13 +10,10 @@ body header nav ul li a{color:#000;font-family:"Dancing Script",Arial;font-weigh
 body header nav ul li a:hover{border-bottom:1px solid #0058a5;margin:0;padding:0}
 body header nav #logo{display:inline-block;border-radius:50%;display:inline;float:left;left:0;margin:0 0 0 0;postion:relative;top:1em;text-decoretion:none;width:40px}
 body #contenedor{background:#fff;display:inline-block;postion:relative;width:100%;z-index:1em;}
-body #contenedor h2{color:#000;font-family:"Pinyon Script",Arial;font-size:1.3em;float:left;margin:.3em;padding:.3em;text-align:left;width:90%}
-body #contenedor #contenido{display:inline-block;float:left;margin:0 .4em;padding:.3em;postion:relative;width:60%;}
-body #contenedor #contenido h3{font-family:"Pinyon Script",Arial;font-size:1em}
-body #contenedor #contenido .boletin{display:inline-block;padding:.1em;width:80%;}
-body #contenedor #contenido .boletin .Imagen{float:left;width:30%}
-body #contenedor #contenido .boletin a{color:#000;display:block;font-size:.9em;margin:.4em;margin-top:2em;vertical-align:top;text-decoration:none}
-body #contenedor #contenido .boletin a:hover{color:#00f;font-size:1.3em;font-weight:bold}
+body #contenedor h2{color:#000;font-family:"Pinyon Script",Arial;font-size:1em;float:left;margin:.3em;padding:.3em;text-align:left;width:90%}
+body #contenedor #contenido{background:#f00;color:#000;display:inline-block;padding:.3em;postion:relative;text-align:left;width:60%;}
+body #contenedor #contenido b{font-family:"Pinyon Script",Arial;font-size:1.3em}
+body #contenedor #contenido #texto{text-align:center}
 body #contenedor #lateral{display:inline-block;float:right;padding:.3em;postion:relative;text-align:left;width:20%;}
 body #contenedor #lateral #estilo{font-weight:bold}
 body #contenedor #lateral h2{border-bottom:1px solid #000;font-size:1.1em;float:left;margin:0 0 0 0}
@@ -41,5 +38,4 @@ body #contenedor #pie #calle #contacto a{color:#fff;font-size:1em}
 body #contenedor #pie #calle #contacto a:hover{color:#aad;font-size:1.2em}
 @media screen and (min-width:768px){body{margin:0 auto;max-width:1200px}
 #contenedor{width:95%}
-#contenedor #contenido .boletin a{float:left}
 }
