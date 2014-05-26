@@ -143,94 +143,102 @@ body
 
 
 		#pie
-				background black
+			background black
+			display inline-block
+			font-size 1.0em
+			postion relative			
+			width 100%
+
+			#redes
+				float right
 				display inline-block
+				width 40%
+
+				.social
+					vertical-align top
+					width 10%
+
+			#avisos
+				margin 0.3em 0.3em
+				width 80%
+
+				a 
+					color white
+					font-family "Pinyon Script", Arial
+					font-size 1.0em
+					padding 0.6em
+
+				a:hover
+					font-size 1.3em
+
+			#presentacion
+				display inline-block
+				float left
+				height auto
+				vertical-align top
+				width 60%
+
+				#medalla
+					border-radius 50%
+					float left
+					margin 0em 0.6em
+					postion relative
+					width 12% 
+
+			#enlaces
+				border-bottom 1px solid white
+				border-top 1px solid white
+				display inline-block
+				font-size 1.0em
+				float left
 				postion relative
-				width 100%
+				text-align center
+				text-decoration none
+				width 90%
 
-				#redes
-					float right
-					display inline-block
-					width 40%
+				#izquierda, #centro, #derecha
+					vertical-align top
+					width 50%
 
-					.social
+					.enlace 
+						display inline-block
+						font-size 0.7em
+						padding 3.5em
+						text-align center
 						vertical-align top
-						width 10%
+						width 7%
 
-				#avisos
-					margin 0.3em 0.3em
+						h3
+							font-family "Pinyon Script", Arial
+							font-size 1.5em
+
+						a 
+							color white
+							font-family 1.0em
+							text-decoration none
+
+						a:hover
+							color blue
+
+			#calle
+				display inline-block
+				font-size 0.8em
+				height auto
+				vertical-align top
+				width 90%
+
+				#contacto
+					display inline-block 
+					top 0px
 					width 80%
 
 					a 
 						color white
-						font-family "Pinyon Script", Arial
 						font-size 1.0em
-						padding 0.6em
 
 					a:hover
-						font-size 1.3em
-
-				#presentacion
-					display inline-block
-					float left
-					height auto
-					vertical-align top
-					width 60%
-
-					#medalla
-						border-radius 50%
-						float left
-						margin 0em 0.6em
-						postion relative
-						width 12% 
-
-				#enlaces
-					border-bottom 1px solid white
-					border-top 1px solid white
-					display inline-block
-					font-size 1.0em
-					postion relative
-					text-align center
-					width 90%
-
-					#izquierda, #centro, #derecha
-						vertical-align top
-						width 50%
-
-						.enlace 
-							display inline-block
-							font-size 0.9em
-							padding 2em
-							text-align center
-							vertical-align top
-							width 5%
-
-							h3
-								font-family "Pinyon Script", Arial
-								font-size 1.5em
-
-							a 
-								color white
-								font-family 1.0em
-
-				#calle
-					display inline-block
-					height auto
-					vertical-align top
-					width 90%
-
-					#contacto
-						display inline-block 
-						top 0px
-						width 80%
-
-						a 
-							color white
-							font-size 1.0em
-
-						a:hover
-							color #aad
-							font-size 1.2em
+						color #aad
+						font-size 1.2em
 
 @import"responsive.styl"
 

@@ -20,7 +20,7 @@ body #lateral h3{border-bottom:1px solid #000;color:#000;font-family:"Pinyon Scr
 body #lateral a{border-bottom:1px solid #000;color:#000;display:block;text-align:left;text-decoration:none;padding:.3em}
 body #lateral a:hover{color:#00f}
 body #lateral #estilo{font-weight:bold}
-body #pie{background:#000;display:inline-block;postion:relative;width:100%;}
+body #pie{background:#000;display:inline-block;font-size:1em;postion:relative;width:100%;}
 body #pie #redes{float:right;display:inline-block;width:40%;}
 body #pie #redes .social{vertical-align:top;width:10%}
 body #pie #avisos{margin:.3em .3em;width:80%;}
@@ -28,12 +28,13 @@ body #pie #avisos a{color:#fff;font-family:"Pinyon Script",Arial;font-size:1em;p
 body #pie #avisos a:hover{font-size:1.3em}
 body #pie #presentacion{display:inline-block;float:left;height:auto;vertical-align:top;width:60%;}
 body #pie #presentacion #medalla{border-radius:50%;float:left;margin:0 .6em;postion:relative;width:12%}
-body #pie #enlaces{border-bottom:1px solid #fff;border-top:1px solid #fff;display:inline-block;font-size:1em;postion:relative;text-align:center;width:90%;}
+body #pie #enlaces{border-bottom:1px solid #fff;border-top:1px solid #fff;color:#fff;display:inline-block;font-size:1em;float:left;postion:relative;text-align:center;text-decoration:none;width:90%;}
 body #pie #enlaces #izquierda,body #pie #enlaces #centro,body #pie #enlaces #derecha{vertical-align:top;width:50%;}
-body #pie #enlaces #izquierda .enlace,body #pie #enlaces #centro .enlace,body #pie #enlaces #derecha .enlace{display:inline-block;font-size:.9em;padding:2em;text-align:center;vertical-align:top;width:5%;}
+body #pie #enlaces #izquierda .enlace,body #pie #enlaces #centro .enlace,body #pie #enlaces #derecha .enlace{display:inline-block;font-size:.7em;padding:3.5em;text-align:center;vertical-align:top;width:7%;}
 body #pie #enlaces #izquierda .enlace h3,body #pie #enlaces #centro .enlace h3,body #pie #enlaces #derecha .enlace h3{font-family:"Pinyon Script",Arial;font-size:1.5em}
-body #pie #enlaces #izquierda .enlace a,body #pie #enlaces #centro .enlace a,body #pie #enlaces #derecha .enlace a{color:#fff;font-family:1em}
-body #pie #calle{display:inline-block;height:auto;vertical-align:top;width:90%;}
+body #pie #enlaces #izquierda .enlace a,body #pie #enlaces #centro .enlace a,body #pie #enlaces #derecha .enlace a{color:#fff;font-family:1em;text-decoration:none}
+body #pie #enlaces #izquierda .enlace a:hover,body #pie #enlaces #centro .enlace a:hover,body #pie #enlaces #derecha .enlace a:hover{color:#00f}
+body #pie #calle{color:#fff;display:inline-block;font-size:.8em;height:auto;vertical-align:top;width:90%;}
 body #pie #calle #contacto{display:inline-block;top:0;width:80%;}
 body #pie #calle #contacto a{color:#fff;font-size:1em}
 body #pie #calle #contacto a:hover{color:#aad;font-size:1.2em}

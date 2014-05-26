@@ -10,14 +10,14 @@ body header nav ul li a{color:#000;font-family:"Dancing Script",Arial;font-weigh
 body header nav ul li a:hover{border-bottom:1px solid #0058a5;margin:0;padding:0}
 body header nav #logo{display:inline-block;border-radius:50%;display:inline;float:left;left:0;margin:0 0 0 0;postion:relative;top:1em;text-decoretion:none;width:40px}
 body #contenedor{background:#fff;display:inline-block;postion:relative;width:100%;z-index:1em;}
-body #contenedor #contenido{background:#f00;display:inline-block;float:left;margin:0 .2em;postion:relative;width:70%;}
+body #contenedor #contenido{color:#000;display:inline-block;float:left;margin:0 .2em;postion:relative;width:70%;}
 body #contenedor #contenido .texto-item{background:#ddf;postion:relative;text-align:left;width:80%;}
 body #contenedor #contenido .texto-item h2{border-bottom:1px solid #fff;font-family:"Pinyon Script",Arial;font-size:1.1em;margin-left}
 body #contenedor #contenido .texto-item .estilo{font-size:1.2em;float:left;margin-left}
 body #contenedor #lateral{background:#ddc;display:inline-block;float:right;margin:.2em 0 .1em;padding:.2 .2em;postion:relative;text-align:left;width:25%;}
-body #contenedor #lateral h2{color:#fff;font-family:"Pinyon Script",Arial;font-size:1.2em}
+body #contenedor #lateral h2{color:#000;font-family:"Pinyon Script",Arial;font-size:1.5em}
 body #contenedor #lateral a{border-bottom:1px solid #fff;color:#000;display:block;padding:.5em 1em;text-decoretion:none}
-body #contenedor #pie{background:#000;display:inline-block;postion:relative;width:100%;}
+body #contenedor #pie{background:#000;display:inline-block;font-size:1em;postion:relative;width:100%;}
 body #contenedor #pie #redes{float:right;display:inline-block;width:40%;}
 body #contenedor #pie #redes .social{vertical-align:top;width:10%}
 body #contenedor #pie #avisos{margin:.3em .3em;width:80%;}
@@ -25,12 +25,13 @@ body #contenedor #pie #avisos a{color:#fff;font-family:"Pinyon Script",Arial;fon
 body #contenedor #pie #avisos a:hover{font-size:1.3em}
 body #contenedor #pie #presentacion{display:inline-block;float:left;height:auto;vertical-align:top;width:60%;}
 body #contenedor #pie #presentacion #medalla{border-radius:50%;float:left;margin:0 .6em;postion:relative;width:12%}
-body #contenedor #pie #enlaces{border-bottom:1px solid #fff;border-top:1px solid #fff;display:inline-block;font-size:1em;postion:relative;text-align:center;width:90%;}
+body #contenedor #pie #enlaces{border-bottom:1px solid #fff;border-top:1px solid #fff;display:inline-block;font-size:1em;float:left;postion:relative;text-align:center;text-decoration:none;width:90%;}
 body #contenedor #pie #enlaces #izquierda,body #contenedor #pie #enlaces #centro,body #contenedor #pie #enlaces #derecha{vertical-align:top;width:50%;}
-body #contenedor #pie #enlaces #izquierda .enlace,body #contenedor #pie #enlaces #centro .enlace,body #contenedor #pie #enlaces #derecha .enlace{display:inline-block;font-size:.9em;padding:2em;text-align:center;vertical-align:top;width:5%;}
+body #contenedor #pie #enlaces #izquierda .enlace,body #contenedor #pie #enlaces #centro .enlace,body #contenedor #pie #enlaces #derecha .enlace{display:inline-block;font-size:.7em;padding:3.5em;text-align:center;vertical-align:top;width:7%;}
 body #contenedor #pie #enlaces #izquierda .enlace h3,body #contenedor #pie #enlaces #centro .enlace h3,body #contenedor #pie #enlaces #derecha .enlace h3{font-family:"Pinyon Script",Arial;font-size:1.5em}
-body #contenedor #pie #enlaces #izquierda .enlace a,body #contenedor #pie #enlaces #centro .enlace a,body #contenedor #pie #enlaces #derecha .enlace a{color:#fff;font-family:1em}
-body #contenedor #pie #calle{display:inline-block;height:auto;vertical-align:top;width:90%;}
+body #contenedor #pie #enlaces #izquierda .enlace a,body #contenedor #pie #enlaces #centro .enlace a,body #contenedor #pie #enlaces #derecha .enlace a{color:#fff;font-family:1em;text-decoration:none}
+body #contenedor #pie #enlaces #izquierda .enlace a:hover,body #contenedor #pie #enlaces #centro .enlace a:hover,body #contenedor #pie #enlaces #derecha .enlace a:hover{color:#00f}
+body #contenedor #pie #calle{display:inline-block;font-size:.8em;height:auto;vertical-align:top;width:90%;}
 body #contenedor #pie #calle #contacto{display:inline-block;top:0;width:80%;}
 body #contenedor #pie #calle #contacto a{color:#fff;font-size:1em}
 body #contenedor #pie #calle #contacto a:hover{color:#aad;font-size:1.2em}

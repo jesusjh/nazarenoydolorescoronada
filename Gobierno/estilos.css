@@ -1,5 +1,5 @@
 body{background:#808080;color:#fff;font-size:14px;postion:absolute;margin:0;text-align:center;}
-body header{background:#000;display:inline-block;hight:auto;}
+body header{background:#000;display:inline-block;hight:auto;width:95%;}
 body header h1{display:inline-block;font-family:"Pinyon Script",Arial;font-size:1.4em;postion:relative;width:50%}
 body header #imagen{float:left;width:20%}
 body header #image{float:right;width:20%}
@@ -9,9 +9,9 @@ body header nav ul li{display:inline-block;margin:0 1.2em 0 0;vertical-align:top
 body header nav ul li a{color:#000;font-family:"Dancing Script",Arial;font-weight:normal;display:block;text-decoretion:none;padding:0 0}
 body header nav ul li a:hover{border-bottom:1px solid #0058a5;margin:0;padding:0}
 body header nav #logo{display:inline-block;border-radius:50%;display:inline;float:left;left:0;margin:0 0 0 0;postion:relative;top:1em;text-decoration:none;width:40px}
-body #contenedor{background:#fff;color:#000;display:inline-block;postion:relative;width:100%;z-index:1em;}
+body #contenedor{background:#fff;color:#000;display:inline-block;postion:relative;width:100%;}
 body #contenedor h2{color:#000;font-family:"Pinyon Script",Arial;font-size:1em;float:left;margin:.3em;padding:.3em;text-align:left;width:90%}
-body #contenedor #contenido{display:inline-block;float:left;margin:0 .3em;padding:0 .3em;postion:relative;text-align:left;vertical-align:top;width:65%;}
+body #contenedor #contenido{display:inline-block;float:left;margin:0 .3em;padding:0 .3em;postion:relative;text-align:left;vertical-align:top;width:60%;}
 body #contenedor #contenido .imagen{float:left;margin:1em .5em;width:20%}
 body #contenedor #contenido h3{font-family:"Pinyon Script",Arial;font-size:1.2em;float:right;margin:0 .4em}
 body #contenedor #lateral{float:right;margin:0 .3em;postion:relative;text-align:left;width:30%;}
