@@ -1,0 +1,65 @@
+body{background:#808080;color:#fff;font-size:14px;postion:absolute;margin:0;text-align:center;}
+body header{background:#000;display:inline-block;hight:auto;}
+body header h1{display:inline-block;font-family:"Pinyon Script",Arial;font-size:1.4em;postion:relative;width:50%}
+body header #imagen{float:left;width:20%}
+body header #image{float:right;width:20%}
+body header nav{background:#ccc;border-bottom:4px solid transparent;border-left:10px solid #000;border-top:4px solid transparent;border-bottom:4px solid transparent;border-right:10px solid #000;border-top:4px solid transparent;color:#fff;display:inline-block;font-size:1.4em;text-align:center;vertical-align:top;width:90%}
+body header nav ul{list-style:none;margin:0;padding:0 .8em}
+body header nav ul li{display:inline-block;margin:0 1.2em 0 0;vertical-align:top}
+body header nav ul li a{color:#000;font-family:"Dancing Script",Arial;font-weight:normal;display:block;text-decoretion:none;padding:0 0}
+body header nav ul li a:hover{border-bottom:1px solid #0058a5;margin:0;padding:0}
+body header nav #logo{display:inline-block;border-radius:50%;display:inline;float:left;left:0;margin:0 0 0 0;postion:relative;top:1em;text-decoretion:none;width:40px}
+body #contenedor{background:#fff;display:inline-block;postion:relative;width:100%;z-index:1em;}
+body #contenedor h2{color:#000;font-family:"Pinyon Script",Arial;font-size:1em;float:left;margin:.3em;padding:.3em;text-align:left;width:90%}
+body #contenedor #contenido{color:#000;display:inline-block;margin:.3em .3em;padding:.3em;postion:relative;width:60%;}
+body #contenedor #contenido h3{font-family:"Pinyon Script",Arial;font-size:1em}
+body #contenedor #contenido b{font-size:.8em}
+body #contenedor #contenido .texto{display:inline-block;float:left;font-size:.8em;padding:.3em;postion:relative;width:45%;}
+body #contenedor #contenido .texto #arriba{display:inline-block;width:100%;}
+body #contenedor #contenido .texto #arriba .Logo{float:left;width:20%}
+body #contenedor #contenido .texto #arriba a{color:#00f;text-decoration:none}
+body #contenedor #contenido .texto #centro{display:inline-block;margin:.3em;width:100%;}
+body #contenedor #contenido .texto #centro .Logo{float:left;width:20%}
+body #contenedor #contenido .texto #abajo{display:inline-block;width:100%;}
+body #contenedor #contenido .texto #abajo .Logo{float:left;width:20%}
+body #contenedor #contenido .texto #abajo a{color:#00f;text-decoration:none}
+body #contenedor #contenido #imagenes{display:inline-block;float:right;margin-top:2em;width:50%;}
+body #contenedor #contenido #imagenes .fotografias{padding:.1em;width:60%}
+body #contenedor #spam{display:inline-block;font-size:.9em;float:right;postion:relative;text-align:center;width:30%;}
+body #contenedor #spam .lateral{display:inline-block;font-size:1.1em;float:left;margin:.2em .3em;padding:.3em .3em;text-align:left;width:60%;}
+body #contenedor #spam .lateral a{border-bottom:1px solid #000;color:#000;display:block;text-decoration:none}
+body #contenedor #spam .lateral a:hover{color:#00f}
+body #contenedor #spam #calendario{display:inline-block;float:left;margin:1em 1em;margin-left:0;width:100%;}
+body #contenedor #spam #calendario #calen{display:inline-block;postion:absolute;font-size:1.2em;float:left;width:80%}
+body #contenedor #spam #pdf{color:#000;display:inline-block;float:left;margin:1em 0;postion:relative;text-align:left;width:65%;}
+body #contenedor #spam #pdf h3{color:#000;font-size:1em;float:left;font-family:"Pinyon Script",Arial;padding:.4em;width:80%}
+body #contenedor #spam #pdf a{color:#000;font-size:1em;margin:1em 0}
+body #contenedor #actualidad{background:#ccc;display:inline-block;width:100%;}
+body #contenedor #actualidad #iglesia{display:inline-block;float:left;width:50%}
+body #contenedor #actualidad #formaulrio{background:#eed;display:inline-block;width:50%;}
+body #contenedor #actualidad #formaulrio #formulario-item{width:100%}
+body #contenedor #lateral{display:inline-block;float:right;padding:.3em;postion:relative;text-align:left;width:20%;}
+body #contenedor #lateral #estilo{font-weight:bold}
+body #contenedor #lateral h2{border-bottom:1px solid #000;font-size:1.1em;float:left;margin:0 0 0 0}
+body #contenedor #lateral a{color:#000;border-bottom:1px solid #000;display:block;padding:.2em;text-decoration:none}
+body #contenedor #pie{background:#000;display:inline-block;font-size:1em;postion:relative;width:100%;}
+body #contenedor #pie #redes{float:right;display:inline-block;width:40%;}
+body #contenedor #pie #redes .social{vertical-align:top;width:10%}
+body #contenedor #pie #avisos{margin:.3em .3em;width:80%;}
+body #contenedor #pie #avisos a{color:#fff;font-family:"Pinyon Script",Arial;font-size:1em;padding:.6em}
+body #contenedor #pie #avisos a:hover{font-size:1.3em}
+body #contenedor #pie #presentacion{display:inline-block;float:left;height:auto;vertical-align:top;width:60%;}
+body #contenedor #pie #presentacion #medalla{border-radius:50%;float:left;margin:0 .6em;postion:relative;width:12%}
+body #contenedor #pie #enlaces{border-bottom:1px solid #fff;border-top:1px solid #fff;display:inline-block;font-size:1em;float:left;postion:relative;text-align:center;text-decoration:none;width:90%;}
+body #contenedor #pie #enlaces #izquierda,body #contenedor #pie #enlaces #centro,body #contenedor #pie #enlaces #derecha{vertical-align:top;width:50%;}
+body #contenedor #pie #enlaces #izquierda .enlace,body #contenedor #pie #enlaces #centro .enlace,body #contenedor #pie #enlaces #derecha .enlace{display:inline-block;font-size:.7em;padding:3.5em;text-align:center;vertical-align:top;width:7%;}
+body #contenedor #pie #enlaces #izquierda .enlace h3,body #contenedor #pie #enlaces #centro .enlace h3,body #contenedor #pie #enlaces #derecha .enlace h3{font-family:"Pinyon Script",Arial;font-size:1.5em}
+body #contenedor #pie #enlaces #izquierda .enlace a,body #contenedor #pie #enlaces #centro .enlace a,body #contenedor #pie #enlaces #derecha .enlace a{color:#fff;font-family:1em;text-decoration:none}
+body #contenedor #pie #enlaces #izquierda .enlace a:hover,body #contenedor #pie #enlaces #centro .enlace a:hover,body #contenedor #pie #enlaces #derecha .enlace a:hover{color:#00f}
+body #contenedor #pie #calle{display:inline-block;font-size:.8em;height:auto;vertical-align:top;width:90%;}
+body #contenedor #pie #calle #contacto{display:inline-block;top:0;width:80%;}
+body #contenedor #pie #calle #contacto a{color:#fff;font-size:1em}
+body #contenedor #pie #calle #contacto a:hover{color:#aad;font-size:1.2em}
+@media screen and (min-width:768px){body{margin:0 auto;max-width:1200px}
+#contenedor{width:95%}
+}
