@@ -1,0 +1,8 @@
+Log file created at: [vie 6. jun 10:11:06 2014]
+ProcessTransfer: Transfer List Count[1]
+ProcessTransfer: Thread Retrieved
+ProcessTransfer: Send File[C:/Users/jesus/Documents/GitHub/nazarenoydolorescoronada/img/20140606100958723_53510.zip]
+ProcessTransfer: Proxy Details are Host[] Port[8080]
+SlotFileUploaded: File[C:/Users/jesus/Documents/GitHub/nazarenoydolorescoronada/img/20140606100958723_53510.zip] Success[1] Response[Transfer complete.]
+SlotFileUploaded: There are [0] Threads running and [0] files still to upload
+SlotFileUploaded: [1] Files Completed of [1] files to upload

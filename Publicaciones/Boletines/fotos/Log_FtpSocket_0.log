@@ -1,0 +1,71 @@
+Sending Command : [AUTH TLS]
+CFtpSocket::sendCommand entered
+About to call SSL isOpen
+CFtpSocket::slotSocketReadyRead entered
+CFtpSocket::slotSocketReadyRead Data read from Server is [220 (vsFTPd 2.3.5)
+]
+CFtpSocket::slotSocketReadyRead entered
+CFtpSocket::slotSocketReadyRead Data read from Server is [234 Proceed with negotiation.
+]
+Sending Command : [USER ftp_user]
+CFtpSocket::sendCommand entered
+About to call SSL isOpen
+CFtpSocket::slotSocketReadyRead entered
+CFtpSocket::slotSocketReadyRead Data read from Server is [331 Please specify the password.
+]
+Sending Command : [PASS ******]
+CFtpSocket::sendCommand entered
+About to call SSL isOpen
+CFtpSocket::slotSocketReadyRead entered
+CFtpSocket::slotSocketReadyRead Data read from Server is [230 Login successful.
+]
+Sending Command : [PWD]
+CFtpSocket::sendCommand entered
+About to call SSL isOpen
+CFtpSocket::slotSocketReadyRead entered
+CFtpSocket::slotSocketReadyRead Data read from Server is [257 "/"
+]
+List command........
+Sending Command : [TYPE I]
+CFtpSocket::sendCommand entered
+About to call SSL isOpen
+CFtpSocket::slotSocketReadyRead entered
+CFtpSocket::slotSocketReadyRead Data read from Server is [200 Switching to Binary mode.
+]
+CFtpSocket::processType response code for Type is [200] and reply is [Switching to Binary mode.]
+Sending Command : [PASV]
+CFtpSocket::sendCommand entered
+About to call SSL isOpen
+CFtpSocket::slotSocketReadyRead entered
+CFtpSocket::slotSocketReadyRead Data read from Server is [227 Entering Passive Mode (23,21,123,0,54,202).
+]
+Sending Command : [CWD /v6/20140606101925936_53510]
+CFtpSocket::sendCommand entered
+About to call SSL isOpen
+CFtpSocket::slotSocketReadyRead entered
+CFtpSocket::slotSocketReadyRead Data read from Server is [550 Failed to change directory.
+]
+CWD Response was not 250 and current command is LIST
+Sending Command : [LIST]
+CFtpSocket::sendCommand entered
+About to call SSL isOpen
+CFtpSocket::slotSocketReadyRead entered
+CFtpSocket::slotSocketReadyRead Data read from Server is [150 Here comes the directory listing.
+]
+Reply for command [LIST] is [Here comes the directory listing.] with replyCode [150]
+Not waiting on Data Connection to Close
+Data socket Connection Closed
+Current Command is LIST
+Response on Closing connection for LIST command is - 
+CFtpSocket::slotSocketReadyRead entered
+CFtpSocket::slotSocketReadyRead Data read from Server is []
+CFtpSocket::slotSocketReadyRead entered
+CFtpSocket::slotSocketReadyRead Data read from Server is [226 Directory send OK.
+]
+ReplyCode is 226 or 250
+Data Connection is already Closed
+Reply for command [LIST] is [Directory send OK.] with replyCode [226]
+Not waiting on Data Connection to Close
+Ending Command [LIST] with Response [Directory send OK.] and ReplyCode [226]
+List Command Complete calling disconnectSocket
+Closing the Socket.............
