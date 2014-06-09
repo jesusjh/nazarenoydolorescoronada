@@ -28,11 +28,11 @@ body #contenedor #text #especiales #juan .pablo{width:50%}
 body #contenedor #text #especiales #coronacion{float:right;width:45%;}
 body #contenedor #text #especiales #coronacion .pablo{width:40%}
 body #contenedor #text #contenido{color:#000;display:inline-block;width:100%;}
-body #contenedor #text #contenido .noticias{display:inline-block;padding:1em;postion:relative;width:40%;}
+body #contenedor #text #contenido .noticias{display:inline-block;padding:1em;postion:relative;vertical-align:top;width:40%;}
 body #contenedor #text #contenido .noticias h3{color:#5d5197}
 body #contenedor #text #contenido .noticias a{color:#000}
 body #contenedor #text #contenido .noticias .imagenes{border-radius:40%;height:70px;width:70%}
-body #contenedor #spam{display:inline-block;float:right;postion:relative;text-align:center;width:30%;}
+body #contenedor #spam{display:inline-block;font-size:.9em;float:right;postion:relative;text-align:center;width:30%;}
 body #contenedor #spam .lateral{display:inline-block;font-size:1.1em;float:left;margin:.2em .3em;padding:.3em .3em;text-align:left;width:60%;}
 body #contenedor #spam .lateral a{border-bottom:1px solid #000;color:#000;display:block;text-decoration:none}
 body #contenedor #spam .lateral a:hover{color:#00f}
@@ -41,6 +41,8 @@ body #contenedor #spam #calendario #calen{display:inline-block;postion:absolute;
 body #contenedor #spam #pdf{color:#000;display:inline-block;float:left;margin:1em 0;postion:relative;text-align:left;width:65%;}
 body #contenedor #spam #pdf h3{color:#000;font-size:1em;float:left;font-family:"Pinyon Script",Arial;padding:.4em;width:80%}
 body #contenedor #spam #pdf a{color:#000;font-size:1em;margin:1em 0}
+body #contenedor #spam #libro{color:#000;display:inline-block;font-size:.8em;float:left;text-align:left;width:60%;}
+body #contenedor #spam #libro #Portada{width:100%}
 body #contenedor #actualidad{background:#ccc;display:inline-block;width:100%;}
 body #contenedor #actualidad #iglesia{display:inline-block;float:left;width:50%}
 body #contenedor #actualidad #formaulrio{background:#eed;display:inline-block;width:50%;}
