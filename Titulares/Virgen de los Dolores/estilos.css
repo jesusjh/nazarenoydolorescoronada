@@ -10,18 +10,18 @@ body header nav ul li a{color:#000;font-family:"Dancing Script",Arial;font-weigh
 body header nav ul li a:hover{border-bottom:1px solid #0058a5;margin:0;padding:0}
 body header nav #logo{display:inline-block;border-radius:50%;display:inline;float:left;left:0;margin:0 0 0 0;postion:relative;top:1em;text-decoretion:none;width:40px}
 body #contenedor{background:#fff;color:#000;display:inline-block;postion:relative;width:100%;z-index:1em;}
-body #contenedor #texto{display:inline-block;float:left;padding:.3em .3em;postion:relative;width:70%;}
+body #contenedor #texto{display:inline-block;float:left;padding:.3em .3em;postion:relative;width:75%;}
 body #contenedor #texto h2{font-family:"Pinyon Script",Arial;float:left}
-body #contenedor #texto .derecha{display:inline-block;float:left;padding:.3em;text-align:left;width:70%;}
-body #contenedor #texto .derecha .texto-item{float:left;width:60%}
-body #contenedor #texto .derecha .src{float:right;postion:relative;width:30%}
+body #contenedor #texto .derecha{display:inline-block;float:right;margin:.3em;padding:.3em;postion:relative;text-align:left;vertical-align:top;width:100%;}
+body #contenedor #texto .derecha .texto-item{float:right;width:50%}
+body #contenedor #texto .derecha .src{float:left;margin:0 .7em;postion:relative;width:40%}
 body #contenedor #texto .izquierda{display:inline-block;float:right;margin:.3em;padding:.3em .3em;width:70%;}
 body #contenedor #texto .izquierda .texto-item{float:left;text-align:left;width:65%}
 body #contenedor #texto .izquierda h3{font-family:"Pinyon Script",Arial}
 body #contenedor #texto .izquierda .src{float:right;width:30%}
 body #contenedor #lateral{display:inline-block;float:right;padding:.3em;postion:relative;text-align:left;width:20%;}
 body #contenedor #lateral h2{border-bottom:1px solid #000;font-family:"Pinyon Script",Arial;font-size:1.1em;float:left;margin:0 0 0 0}
-body #contenedor #lateral a{color:#000;border-bottom:1px solid #000;display:inline-block;padding:.2em;text-decoretion:none}
+body #contenedor #lateral a{color:#000;border-bottom:1px solid #000;display:block;padding:.2em;text-decoretion:none}
 body #contenedor #pie{background:#000;display:inline-block;font-size:1em;postion:relative;width:100%;}
 body #contenedor #pie #redes{float:right;display:inline-block;width:40%;}
 body #contenedor #pie #redes .social{vertical-align:top;width:10%}

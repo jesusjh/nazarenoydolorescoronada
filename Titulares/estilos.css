@@ -13,8 +13,8 @@ body #contenedor{background:#fff;display:inline-block;postion:relative;width:100
 body #contenedor h2{color:#000;font-family:"Pinyon Script",Arial;font-size:1em;float:left;margin:.3em;padding:.3em;text-align:left;width:90%}
 body #contenedor #contenido{display:inline-block;color:#000;float:left;margin:.3em .3em;text-align:left;width:70%;}
 body #contenedor #contenido #derecha{display:inline-block;margin:.1em .3em;padding:.2em;width:90%;}
-body #contenedor #contenido #derecha #imagen{float:left;width:40%;}
-body #contenedor #contenido #derecha #imagen .cristo{width:50%}
+body #contenedor #contenido #derecha #imagen{float:left;margin:.3em;width:40%;}
+body #contenedor #contenido #derecha #imagen .cristo{width:80%}
 body #contenedor #contenido #izquierda{display:inline-block;margin:.1em .3em;padding:.5em;width:90%;}
 body #contenedor #contenido #izquierda #imagen{float:right;width:40%;}
 body #contenedor #contenido #izquierda #imagen .cristo{width:50%}
