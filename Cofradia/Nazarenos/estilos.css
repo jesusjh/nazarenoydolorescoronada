@@ -12,8 +12,9 @@ body header nav #logo{display:inline-block;border-radius:50%;display:inline;floa
 body #contenedor{background:#fff;color:#000;display:inline-block;postion:relative;width:100%;z-index:1em;}
 body #contenedor h2{color:#000;font-family:"Pinyon Script",Arial;font-size:1em;float:left;margin:.3em;padding:.3em;text-align:left;width:90%}
 body #contenedor #contenido{display:inline-block;float:left;margin:.3em;padding:.4em;postion:relative;text-align:left;width:60%;}
+body #contenedor #contenido #foto{display:inline-block;float:left;postion:relative;width:60%}
 body #contenedor #contenido b{float:left}
-body #contenedor #contenido #texto{display:inline-block;width:100%;}
+body #contenedor #contenido #texto{display:inline-block;width:90%;}
 body #contenedor #contenido #texto #texto-item{display:inline-block;margin:0 2em;padding:.3em;width:50%}
 body #contenedor #contenido #text{display:inline-block;padding:.3em;width:90%}
 body #contenedor #lateral{display:inline-block;float:right;width:30%;}

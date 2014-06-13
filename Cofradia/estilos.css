@@ -11,9 +11,10 @@ body header nav ul li a:hover{border-bottom:1px solid #0058a5;margin:0;padding:0
 body header nav #logo{display:inline-block;border-radius:50%;display:inline;float:left;left:0;margin:0 0 0 0;postion:relative;top:1em;text-decoretion:none;width:40px}
 body #contenedor{background:#fff;display:inline-block;postion:relative;width:100%;z-index:1em;}
 body #contenedor h2{color:#000;font-family:"Pinyon Script",Arial;font-size:1em;float:left;margin:.3em;padding:.3em;text-align:left;width:90%}
-body #contenedor #contenido{color:#000;display:inline-block;float:left;margin:0 .2em;padding:.3em;postion:relative;text-align:left;vertical-align:top;top:0;width:65%;}
-body #contenedor #contenido #foto{float:left;width:40%}
-body #contenedor #contenido #texto{display:inline-block;font-size:.9em;margin:0 .3em;width:70%;}
+body #contenedor #contenido{color:#000;display:inline-block;float:left;margin:0 .2em;postion:relative;text-align:left;vertical-align:top;top:0;width:65%;}
+body #contenedor #contenido #foto{float:left;width:35%}
+body #contenedor #contenido #item{display:inline-block;font-size:1em;margin:0 1em;width:40%}
+body #contenedor #contenido #texto{display:inline-block;font-size:.9em;margin:0 3em;width:70%;}
 body #contenedor #contenido #texto h3{font-family:"Pinyon Script",Arial}
 body #contenedor #lateral{display:inline-block;width:30%;}
 body #contenedor #lateral h3{border-bottom:1px solid #000;color:#000;font-family:"Pinyon Script",Arial;text-align:left}
