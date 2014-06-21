@@ -11,9 +11,12 @@ body header nav ul li a:hover{border-bottom:1px solid #0058a5;margin:0;padding:0
 body header nav #logo{display:inline-block;border-radius:50%;display:inline;float:left;left:0;margin:0 0 0 0;postion:relative;top:1em;text-decoretion:none;width:40px}
 body #contenedor{background:#fff;display:inline-block;postion:relative;width:100%;z-index:1em;}
 body #contenedor h2{color:#000;font-family:"Pinyon Script",Arial;font-size:1.3em;float:left;margin:.3em;padding:.3em;text-align:left;width:90%}
-body #contenedor #contenido{background:#f00;display:inline-block;float:left;margin:0 .6em;postion:relative;width:70%;}
-body #contenedor #contenido .formulario{background:#eef;display:inline-block;width:100%;}
+body #contenedor #contenido{display:inline-block;float:left;margin:0 .6em;postion:relative;width:70%;}
+body #contenedor #contenido .formulario{display:inline-block;width:100%;}
 body #contenedor #contenido .formulario #catalogo{width:100%}
+body #contenedor #contenido .PDF{font-size:1em;text-align:left;}
+body #contenedor #contenido .PDF a{color:#000;text-decoration:none}
+body #contenedor #contenido .PDF a:hover{color:#00f;font-size:1.2em}
 body #contenedor #lateral{display:inline-block;float:right;font-size:.8em;padding:.3em;postion:relative;text-align:left;width:22%;}
 body #contenedor #lateral #estilo{font-weight:bold}
 body #contenedor #lateral h2{border-bottom:1px solid #000;font-size:1.1em;float:left;margin:0 0 0 0}

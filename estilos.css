@@ -1,7 +1,7 @@
 body{background:#808080;color:#fff;font-size:14px;postion:absolute;margin:0;text-align:center;}
 body header{background:#000;display:inline-block;hight:auto;}
 body header h1{display:inline-block;font-family:"Pinyon Script",Arial;font-size:1.4em;postion:relative;width:50%}
-body header #imagen{float:left;width:20%}
+body header #imagen{float:left;margin:0 3em;width:7%}
 body header #image{float:right;width:20%}
 body header nav{background:#ccc;border-bottom:4px solid transparent;border-left:10px solid #000;border-top:4px solid transparent;border-bottom:4px solid transparent;border-right:10px solid #000;border-top:4px solid transparent;color:#fff;display:inline-block;font-size:1.4em;text-align:center;vertical-align:top;width:90%}
 body header nav ul{list-style:none;margin:0;padding:0 .8em}
@@ -12,7 +12,7 @@ body header nav #logo{display:inline-block;border-radius:50%;display:inline;floa
 body #contenedor{background:#fff;display:inline-block;postion:relative;width:100%;z-index:1em;}
 body #contenedor h2{color:#000;font-family:"Pinyon Script",Arial;font-size:1em;float:left;margin:.3em;padding:.3em;text-align:left;width:90%}
 body #contenedor #text{display:inline-block;float:left;font-size:1em;padding-top:1em;postion:relative;width:70%;}
-body #contenedor #text .avatar{color:#000;display:inline-block;padding:.4em;postion:absolute;vertical-align:top;width:40%;}
+body #contenedor #text .avatar{color:#000;border:1px solid #000;display:inline-block;padding:.4em;postion:absolute;vertical-align:top;width:40%;}
 body #contenedor #text .avatar .png{float:left;margin-top:1em;width:20%}
 body #contenedor #text .avatar h3{font-family:"Pinyon Script",Arial;font-size:1em;float:right;text-align:center;width:80%}
 body #contenedor #text .avatar a{color:#000;display:inline-block;margin:0 1em}
@@ -41,8 +41,11 @@ body #contenedor #spam #calendario #calen{display:inline-block;postion:absolute;
 body #contenedor #spam #pdf{color:#000;display:inline-block;float:left;margin:1em 0;postion:relative;text-align:left;width:65%;}
 body #contenedor #spam #pdf h3{color:#000;font-size:1em;float:left;font-family:"Pinyon Script",Arial;padding:.4em;width:80%}
 body #contenedor #spam #pdf a{color:#000;font-size:1em;margin:1em 0}
-body #contenedor #spam #libro{color:#000;display:inline-block;font-size:.8em;float:left;text-align:left;width:60%;}
-body #contenedor #spam #libro #Portada{width:100%}
+body #contenedor #spam #foro{float:left;postion:relative;width:60%;}
+body #contenedor #spam #foro #nazareno{width:100%}
+body #contenedor #spam .publicaciones{color:#000;display:inline-block;font-size:.8em;float:left;padding:.3em;text-align:left;width:60%;}
+body #contenedor #spam .publicaciones .Portada{border-radius:5%;width:100%}
+body #contenedor #spam .publicaciones .portada{border-radius:5%;width:50%}
 body #contenedor #actualidad{background:#ccc;display:inline-block;width:100%;}
 body #contenedor #actualidad #iglesia{display:inline-block;float:left;width:50%}
 body #contenedor #actualidad #formaulrio{background:#eed;display:inline-block;width:50%;}
