@@ -1,7 +1,7 @@
 body{background:#808080;color:#fff;font-size:14px;postion:absolute;margin:0;text-align:center;}
 body header{background:#000;display:inline-block;hight:auto;}
 body header h1{display:inline-block;font-family:"Pinyon Script",Arial;font-size:1.4em;postion:relative;width:50%}
-body header #imagen{float:left;width:20%}
+body header #imagen{float:left;margin:0 3em;width:7%}
 body header #image{float:right;width:20%}
 body header nav{background:#ccc;border-bottom:4px solid transparent;border-left:10px solid #000;border-top:4px solid transparent;border-bottom:4px solid transparent;border-right:10px solid #000;border-top:4px solid transparent;color:#fff;display:inline-block;font-size:1.4em;text-align:center;vertical-align:top;width:90%}
 body header nav ul{list-style:none;margin:0;padding:0 .8em}
