@@ -9,23 +9,28 @@ body
 	header 
 		background black
 		display inline-block
+		postion relative
 		hight auto
+		z-index 1
 
 		h1
 			display inline-block
 			font-family "Pinyon Script", Arial
 			font-size 1.4em
 			postion relative
-			width 50%
+			margin-top 3em
+			vertical-align top
+			width 55%
 
 		#imagen
-			float left
-			margin 0em 3em
-			width 7%
+			border-radius 20px
+			display inline-block
+			height 300px
+			width 100%
 
 		#image 
 			float right
-			width 20%
+			width 10%
 
 
 		nav
@@ -107,6 +112,7 @@ body
 			.avatar
 				color black
 				border 1px solid black
+				box-shadow 5px 10px 7px rgba(0,0,0,0.5)
 				display inline-block
 				padding 0.4em 
 				postion absolute
@@ -144,6 +150,7 @@ body
 					width 45%
 
 					#youtube
+						height 300px
 						width 50%
 
 				#fotos
@@ -152,10 +159,24 @@ body
 					float right
 					margin 0.3em
 					padding 0.3em
-					width 45%
+					width 40%
 
 					#galeria
 						width 54%
+
+				#calendario
+					display inline-block
+					float left
+					margin 1em 1em
+					margin-left 0px
+					width 100%
+
+					#calen 
+						display inline-block
+						postion absolute
+						font-size 1.2em
+						float left
+						width 90%
 
 			#especiales
 				display inline-block
@@ -231,20 +252,6 @@ body
 				a:hover 
 					color blue
 
-			#calendario
-				display inline-block
-				float left
-				margin 1em 1em
-				margin-left 0px
-				width 100%
-
-				#calen 
-					display inline-block
-					postion absolute
-					font-size 1.2em
-					float left
-					width 80%
-
 			#pdf
 				color black
 				display inline-block
@@ -291,6 +298,25 @@ body
 				.portada 
 					border-radius 5%
 					width 50%
+
+			#paginas
+				display inline-block
+				float left
+				font-size 0.8em
+				width 50%
+
+				a 
+					color black
+					font-size 0.8em
+					text-decoration none
+
+				a:hover
+					font-size 1.1em
+					transition 1s
+
+				h2
+					float left
+					font-size 1.2em
 
 
 		#actualidad

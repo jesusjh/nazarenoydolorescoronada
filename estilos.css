@@ -1,77 +1,473 @@
-body{background:#808080;color:#fff;font-size:14px;postion:absolute;margin:0;text-align:center;}
-body header{background:#000;display:inline-block;hight:auto;}
-body header h1{display:inline-block;font-family:"Pinyon Script",Arial;font-size:1.4em;postion:relative;width:50%}
-body header #imagen{float:left;margin:0 3em;width:7%}
-body header #image{float:right;width:20%}
-body header nav{background:#ccc;border-bottom:4px solid transparent;border-left:10px solid #000;border-top:4px solid transparent;border-bottom:4px solid transparent;border-right:10px solid #000;border-top:4px solid transparent;color:#fff;display:inline-block;font-size:1.4em;text-align:center;vertical-align:top;width:90%}
-body header nav ul{list-style:none;margin:0;padding:0 .8em}
-body header nav ul li{display:inline-block;margin:0 1.2em 0 0;vertical-align:top}
-body header nav ul li a{color:#000;font-family:"Dancing Script",Arial;font-weight:normal;display:block;text-decoretion:none;padding:0 0}
-body header nav ul li a:hover{border-bottom:1px solid #0058a5;margin:0;padding:0}
-body header nav #logo{display:inline-block;border-radius:50%;display:inline;float:left;left:0;margin:0 0 0 0;postion:relative;top:1em;text-decoretion:none;width:40px}
-body #contenedor{background:#fff;display:inline-block;postion:relative;width:100%;z-index:1em;}
-body #contenedor h2{color:#000;font-family:"Pinyon Script",Arial;font-size:1em;float:left;margin:.3em;padding:.3em;text-align:left;width:90%}
-body #contenedor #text{display:inline-block;float:left;font-size:1em;padding-top:1em;postion:relative;width:70%;}
-body #contenedor #text .avatar{color:#000;border:1px solid #000;display:inline-block;padding:.4em;postion:absolute;vertical-align:top;width:40%;}
-body #contenedor #text .avatar .png{float:left;margin-top:1em;width:20%}
-body #contenedor #text .avatar h3{font-family:"Pinyon Script",Arial;font-size:1em;float:right;text-align:center;width:80%}
-body #contenedor #text .avatar a{color:#000;display:inline-block;margin:0 1em}
-body #contenedor #text #publicaciones{display:inline-block;vertical-align:top;width:85%;}
-body #contenedor #text #publicaciones #video{border-top:1px solid #000;display:inline-block;float:left;postion:relative;margin:.3em;width:45%;}
-body #contenedor #text #publicaciones #video #youtube{width:50%}
-body #contenedor #text #publicaciones #fotos{border-top:1px solid #000;display:inline-block;float:right;margin:.3em;padding:.3em;width:45%;}
-body #contenedor #text #publicaciones #fotos #galeria{width:54%}
-body #contenedor #text #especiales{display:inline-block;padding:.3em;vertical-align:top;width:80%;}
-body #contenedor #text #especiales h3{font-family:"Pinyon Script",Arial;width:80%}
-body #contenedor #text #especiales #juan{float:left;width:45%;}
-body #contenedor #text #especiales #juan .pablo{width:50%}
-body #contenedor #text #especiales #coronacion{float:right;width:45%;}
-body #contenedor #text #especiales #coronacion .pablo{width:40%}
-body #contenedor #text #contenido{color:#000;display:inline-block;width:100%;}
-body #contenedor #text #contenido .noticias{display:inline-block;padding:1em;postion:relative;vertical-align:top;width:40%;}
-body #contenedor #text #contenido .noticias h3{color:#5d5197}
-body #contenedor #text #contenido .noticias a{color:#000}
-body #contenedor #text #contenido .noticias .imagenes{border-radius:40%;height:70px;width:70%}
-body #contenedor #spam{display:inline-block;font-size:.9em;float:right;postion:relative;text-align:center;width:30%;}
-body #contenedor #spam .lateral{display:inline-block;font-size:1.1em;float:left;margin:.2em .3em;padding:.3em .3em;text-align:left;width:60%;}
-body #contenedor #spam .lateral a{border-bottom:1px solid #000;color:#000;display:block;text-decoration:none}
-body #contenedor #spam .lateral a:hover{color:#00f}
-body #contenedor #spam #calendario{display:inline-block;float:left;margin:1em 1em;margin-left:0;width:100%;}
-body #contenedor #spam #calendario #calen{display:inline-block;postion:absolute;font-size:1.2em;float:left;width:80%}
-body #contenedor #spam #pdf{color:#000;display:inline-block;float:left;margin:1em 0;postion:relative;text-align:left;width:65%;}
-body #contenedor #spam #pdf h3{color:#000;font-size:1em;float:left;font-family:"Pinyon Script",Arial;padding:.4em;width:80%}
-body #contenedor #spam #pdf a{color:#000;font-size:1em;margin:1em 0}
-body #contenedor #spam #foro{float:left;postion:relative;width:60%;}
-body #contenedor #spam #foro #nazareno{width:100%}
-body #contenedor #spam .publicaciones{color:#000;display:inline-block;font-size:.8em;float:left;padding:.3em;text-align:left;width:60%;}
-body #contenedor #spam .publicaciones .Portada{border-radius:5%;width:100%}
-body #contenedor #spam .publicaciones .portada{border-radius:5%;width:50%}
-body #contenedor #actualidad{background:#ccc;display:inline-block;width:100%;}
-body #contenedor #actualidad #iglesia{display:inline-block;float:left;width:50%}
-body #contenedor #actualidad #formaulrio{background:#eed;display:inline-block;width:50%;}
-body #contenedor #actualidad #formaulrio #formulario-item{width:100%}
-body #contenedor #lateral{display:inline-block;float:right;padding:.3em;postion:relative;text-align:left;width:20%;}
-body #contenedor #lateral #estilo{font-weight:bold}
-body #contenedor #lateral h2{border-bottom:1px solid #000;font-size:1.1em;float:left;margin:0 0 0 0}
-body #contenedor #lateral a{color:#000;border-bottom:1px solid #000;display:block;padding:.2em;text-decoration:none}
-body #contenedor #pie{background:#000;display:inline-block;font-size:1em;postion:relative;width:100%;}
-body #contenedor #pie #redes{float:right;display:inline-block;width:40%;}
-body #contenedor #pie #redes .social{vertical-align:top;width:10%}
-body #contenedor #pie #avisos{margin:.3em .3em;width:80%;}
-body #contenedor #pie #avisos a{color:#fff;font-family:"Pinyon Script",Arial;font-size:1em;padding:.6em}
-body #contenedor #pie #avisos a:hover{font-size:1.3em}
-body #contenedor #pie #presentacion{display:inline-block;float:left;height:auto;vertical-align:top;width:60%;}
-body #contenedor #pie #presentacion #medalla{border-radius:50%;float:left;margin:0 .6em;postion:relative;width:12%}
-body #contenedor #pie #enlaces{border-bottom:1px solid #fff;border-top:1px solid #fff;display:inline-block;font-size:1em;float:left;postion:relative;text-align:center;text-decoration:none;width:90%;}
-body #contenedor #pie #enlaces #izquierda,body #contenedor #pie #enlaces #centro,body #contenedor #pie #enlaces #derecha{vertical-align:top;width:50%;}
-body #contenedor #pie #enlaces #izquierda .enlace,body #contenedor #pie #enlaces #centro .enlace,body #contenedor #pie #enlaces #derecha .enlace{display:inline-block;font-size:.7em;padding:3.5em;text-align:center;vertical-align:top;width:7%;}
-body #contenedor #pie #enlaces #izquierda .enlace h3,body #contenedor #pie #enlaces #centro .enlace h3,body #contenedor #pie #enlaces #derecha .enlace h3{font-family:"Pinyon Script",Arial;font-size:1.5em}
-body #contenedor #pie #enlaces #izquierda .enlace a,body #contenedor #pie #enlaces #centro .enlace a,body #contenedor #pie #enlaces #derecha .enlace a{color:#fff;font-family:1em;text-decoration:none}
-body #contenedor #pie #enlaces #izquierda .enlace a:hover,body #contenedor #pie #enlaces #centro .enlace a:hover,body #contenedor #pie #enlaces #derecha .enlace a:hover{color:#00f}
-body #contenedor #pie #calle{display:inline-block;font-size:.8em;height:auto;vertical-align:top;width:90%;}
-body #contenedor #pie #calle #contacto{display:inline-block;top:0;width:80%;}
-body #contenedor #pie #calle #contacto a{color:#fff;font-size:1em}
-body #contenedor #pie #calle #contacto a:hover{color:#aad;font-size:1.2em}
-@media screen and (min-width:768px){body{margin:0 auto;max-width:1200px}
-#contenedor{width:95%}
+body {
+  background: #808080;
+  color: #fff;
+  font-size: 14px;
+  postion: absolute;
+  margin: 0px;
+  text-align: center;
+}
+body header {
+  background: #000;
+  display: inline-block;
+  postion: relative;
+  hight: auto;
+  z-index: 1;
+}
+body header h1 {
+  display: inline-block;
+  font-family: "Pinyon Script", Arial;
+  font-size: 1.4em;
+  postion: relative;
+  margin-top: 3em;
+  vertical-align: top;
+  width: 55%;
+}
+body header #imagen {
+  border-radius: 20px;
+  display: inline-block;
+  height: 300px;
+  width: 100%;
+}
+body header #image {
+  float: right;
+  width: 10%;
+}
+body header nav {
+  background: #ccc;
+  border-bottom: 4px solid transparent;
+  border-left: 10px solid #000;
+  border-top: 4px solid transparent;
+  border-bottom: 4px solid transparent;
+  border-right: 10px solid #000;
+  border-top: 4px solid transparent;
+  color: #fff;
+  display: inline-block;
+  font-size: 1.4em;
+  text-align: center;
+  vertical-align: top;
+  width: 90%;
+}
+body header nav ul {
+  list-style: none;
+  margin: 0px;
+  padding: 0 0.8em;
+}
+body header nav ul li {
+  display: inline-block;
+  margin: 0 1.2em 0 0;
+  vertical-align: top;
+}
+body header nav ul li a {
+  color: #000;
+  font-family: "Dancing Script", Arial;
+  font-weight: normal;
+  display: block;
+  text-decoretion: none;
+  padding: 0 0;
+}
+body header nav ul li a:hover {
+  border-bottom: 1px solid #0058a5;
+  margin: 0px;
+  padding: 0px;
+}
+body header nav #logo {
+  display: inline-block;
+  border-radius: 50%;
+  display: inline;
+  float: left;
+  left: 0;
+  margin: 0 0 0 0;
+  postion: relative;
+  top: 1em;
+  text-decoretion: none;
+  width: 40px;
+}
+body #contenedor {
+  background: #fff;
+  display: inline-block;
+  postion: relative;
+  width: 100%;
+  z-index: 1em;
+}
+body #contenedor h2 {
+  color: #000;
+  font-family: "Pinyon Script", Arial;
+  font-size: 1em;
+  float: left;
+  margin: 0.3em;
+  padding: 0.3em;
+  text-align: left;
+  width: 90%;
+}
+body #contenedor #text {
+  display: inline-block;
+  float: left;
+  font-size: 1em;
+  padding-top: 1em;
+  postion: relative;
+  width: 70%;
+}
+body #contenedor #text .avatar {
+  color: #000;
+  border: 1px solid #000;
+  box-shadow: 5px 10px 7px rgba(0,0,0,0.5);
+  display: inline-block;
+  padding: 0.4em;
+  postion: absolute;
+  vertical-align: top;
+  width: 40%;
+}
+body #contenedor #text .avatar .png {
+  float: left;
+  margin-top: 1em;
+  width: 20%;
+}
+body #contenedor #text .avatar h3 {
+  font-family: "Pinyon Script", Arial;
+  font-size: 1em;
+  float: right;
+  text-align: center;
+  width: 80%;
+}
+body #contenedor #text .avatar a {
+  color: #000;
+  display: inline-block;
+  margin: 0 1em;
+}
+body #contenedor #text #publicaciones {
+  display: inline-block;
+  vertical-align: top;
+  width: 85%;
+}
+body #contenedor #text #publicaciones #video {
+  border-top: 1px solid #000;
+  display: inline-block;
+  float: left;
+  postion: relative;
+  margin: 0.3em;
+  width: 45%;
+}
+body #contenedor #text #publicaciones #video #youtube {
+  height: 300px;
+  width: 50%;
+}
+body #contenedor #text #publicaciones #fotos {
+  border-top: 1px solid #000;
+  display: inline-block;
+  float: right;
+  margin: 0.3em;
+  padding: 0.3em;
+  width: 40%;
+}
+body #contenedor #text #publicaciones #fotos #galeria {
+  width: 54%;
+}
+body #contenedor #text #publicaciones #calendario {
+  display: inline-block;
+  float: left;
+  margin: 1em 1em;
+  margin-left: 0px;
+  width: 100%;
+}
+body #contenedor #text #publicaciones #calendario #calen {
+  display: inline-block;
+  postion: absolute;
+  font-size: 1.2em;
+  float: left;
+  width: 90%;
+}
+body #contenedor #text #especiales {
+  display: inline-block;
+  padding: 0.3em;
+  vertical-align: top;
+  width: 80%;
+}
+body #contenedor #text #especiales h3 {
+  font-family: "Pinyon Script", Arial;
+  width: 80%;
+}
+body #contenedor #text #especiales #juan {
+  float: left;
+  width: 45%;
+}
+body #contenedor #text #especiales #juan .pablo {
+  width: 50%;
+}
+body #contenedor #text #especiales #coronacion {
+  float: right;
+  width: 45%;
+}
+body #contenedor #text #especiales #coronacion .pablo {
+  width: 40%;
+}
+body #contenedor #text #contenido {
+  color: #000;
+  display: inline-block;
+  width: 100%;
+}
+body #contenedor #text #contenido .noticias {
+  display: inline-block;
+  padding: 1em;
+  postion: relative;
+  vertical-align: top;
+  width: 40%;
+}
+body #contenedor #text #contenido .noticias h3 {
+  color: #5d5197;
+}
+body #contenedor #text #contenido .noticias a {
+  color: #000;
+}
+body #contenedor #text #contenido .noticias .imagenes {
+  border-radius: 40%;
+  height: 70px;
+  width: 70%;
+}
+body #contenedor #spam {
+  display: inline-block;
+  font-size: 0.9em;
+  float: right;
+  postion: relative;
+  text-align: center;
+  width: 30%;
+}
+body #contenedor #spam .lateral {
+  display: inline-block;
+  font-size: 1.1em;
+  float: left;
+  margin: 0.2em 0.3em;
+  padding: 0.3em 0.3em;
+  text-align: left;
+  width: 60%;
+}
+body #contenedor #spam .lateral a {
+  border-bottom: 1px solid #000;
+  color: #000;
+  display: block;
+  text-decoration: none;
+}
+body #contenedor #spam .lateral a:hover {
+  color: #00f;
+}
+body #contenedor #spam #pdf {
+  color: #000;
+  display: inline-block;
+  float: left;
+  margin: 1em 0em;
+  postion: relative;
+  text-align: left;
+  width: 65%;
+}
+body #contenedor #spam #pdf h3 {
+  color: #000;
+  font-size: 1em;
+  float: left;
+  font-family: "Pinyon Script", Arial;
+  padding: 0.4em;
+  width: 80%;
+}
+body #contenedor #spam #pdf a {
+  color: #000;
+  font-size: 1em;
+  margin: 1em 0em;
+}
+body #contenedor #spam #foro {
+  float: left;
+  postion: relative;
+  width: 60%;
+}
+body #contenedor #spam #foro #nazareno {
+  width: 100%;
+}
+body #contenedor #spam .publicaciones {
+  color: #000;
+  display: inline-block;
+  font-size: 0.8em;
+  float: left;
+  padding: 0.3em;
+  text-align: left;
+  width: 60%;
+}
+body #contenedor #spam .publicaciones .Portada {
+  border-radius: 5%;
+  width: 100%;
+}
+body #contenedor #spam .publicaciones .portada {
+  border-radius: 5%;
+  width: 50%;
+}
+body #contenedor #spam #paginas {
+  display: inline-block;
+  float: left;
+  font-size: 0.8em;
+  width: 50%;
+}
+body #contenedor #spam #paginas a {
+  color: #000;
+  font-size: 0.8em;
+  text-decoration: none;
+}
+body #contenedor #spam #paginas a:hover {
+  font-size: 1.1em;
+  transition: 1s;
+}
+body #contenedor #spam #paginas h2 {
+  float: left;
+  font-size: 1.2em;
+}
+body #contenedor #actualidad {
+  background: #ccc;
+  display: inline-block;
+  width: 100%;
+}
+body #contenedor #actualidad #iglesia {
+  display: inline-block;
+  float: left;
+  width: 50%;
+}
+body #contenedor #actualidad #formaulrio {
+  background: #eed;
+  display: inline-block;
+  width: 50%;
+}
+body #contenedor #actualidad #formaulrio #formulario-item {
+  width: 100%;
+}
+body #contenedor #lateral {
+  display: inline-block;
+  float: right;
+  padding: 0.3em;
+  postion: relative;
+  text-align: left;
+  width: 20%;
+}
+body #contenedor #lateral #estilo {
+  font-weight: bold;
+}
+body #contenedor #lateral h2 {
+  border-bottom: 1px solid #000;
+  font-size: 1.1em;
+  float: left;
+  margin: 0em 0em 0em 0em;
+}
+body #contenedor #lateral a {
+  color: #000;
+  border-bottom: 1px solid #000;
+  display: block;
+  padding: 0.2em;
+  text-decoration: none;
+}
+body #contenedor #pie {
+  background: #000;
+  display: inline-block;
+  font-size: 1em;
+  postion: relative;
+  width: 100%;
+}
+body #contenedor #pie #redes {
+  float: right;
+  display: inline-block;
+  width: 40%;
+}
+body #contenedor #pie #redes .social {
+  vertical-align: top;
+  width: 10%;
+}
+body #contenedor #pie #avisos {
+  margin: 0.3em 0.3em;
+  width: 80%;
+}
+body #contenedor #pie #avisos a {
+  color: #fff;
+  font-family: "Pinyon Script", Arial;
+  font-size: 1em;
+  padding: 0.6em;
+}
+body #contenedor #pie #avisos a:hover {
+  font-size: 1.3em;
+}
+body #contenedor #pie #presentacion {
+  display: inline-block;
+  float: left;
+  height: auto;
+  vertical-align: top;
+  width: 60%;
+}
+body #contenedor #pie #presentacion #medalla {
+  border-radius: 50%;
+  float: left;
+  margin: 0em 0.6em;
+  postion: relative;
+  width: 12%;
+}
+body #contenedor #pie #enlaces {
+  border-bottom: 1px solid #fff;
+  border-top: 1px solid #fff;
+  display: inline-block;
+  font-size: 1em;
+  float: left;
+  postion: relative;
+  text-align: center;
+  text-decoration: none;
+  width: 90%;
+}
+body #contenedor #pie #enlaces #izquierda,
+body #contenedor #pie #enlaces #centro,
+body #contenedor #pie #enlaces #derecha {
+  vertical-align: top;
+  width: 50%;
+}
+body #contenedor #pie #enlaces #izquierda .enlace,
+body #contenedor #pie #enlaces #centro .enlace,
+body #contenedor #pie #enlaces #derecha .enlace {
+  display: inline-block;
+  font-size: 0.7em;
+  padding: 3.5em;
+  text-align: center;
+  vertical-align: top;
+  width: 7%;
+}
+body #contenedor #pie #enlaces #izquierda .enlace h3,
+body #contenedor #pie #enlaces #centro .enlace h3,
+body #contenedor #pie #enlaces #derecha .enlace h3 {
+  font-family: "Pinyon Script", Arial;
+  font-size: 1.5em;
+}
+body #contenedor #pie #enlaces #izquierda .enlace a,
+body #contenedor #pie #enlaces #centro .enlace a,
+body #contenedor #pie #enlaces #derecha .enlace a {
+  color: #fff;
+  font-family: 1em;
+  text-decoration: none;
+}
+body #contenedor #pie #enlaces #izquierda .enlace a:hover,
+body #contenedor #pie #enlaces #centro .enlace a:hover,
+body #contenedor #pie #enlaces #derecha .enlace a:hover {
+  color: #00f;
+}
+body #contenedor #pie #calle {
+  display: inline-block;
+  font-size: 0.8em;
+  height: auto;
+  vertical-align: top;
+  width: 90%;
+}
+body #contenedor #pie #calle #contacto {
+  display: inline-block;
+  top: 0px;
+  width: 80%;
+}
+body #contenedor #pie #calle #contacto a {
+  color: #fff;
+  font-size: 1em;
+}
+body #contenedor #pie #calle #contacto a:hover {
+  color: #aad;
+  font-size: 1.2em;
+}
+@media screen and (min-width:768px) {
+  body {
+    margin: 0 auto;
+    max-width: 1200px;
+  }
 }
