@@ -25,7 +25,7 @@
             mixpanel.init("3ed481c126e6ea23c2c4e525fdead982");</script>
         <!-- end Mixpanel -->
     </head>
-    <body>
+    <body oncontextmenu='return false' onkeydown='return false'>
       <header>
           <img src="img/Logos/_MG_7021.png" id="imagen" alt="Imagenes de la cofradia">
           <h1>Cofradia Ntro. Padre Jesus Nazareno y Ntra. Sra. de los Dolores Coronada</h1>
@@ -59,10 +59,7 @@
               </articule>
               <articule id="contenido">
                 <articule class="noticias">
-                    <img src="img/Noticias/images.jpg" alt="imagenes de la cofradia" class="imagenes" alt="Imagen de el santisimoa">
-                    <h3>Corpus Chisti</h3>
-                    <p>El día del “Corpus Christi” del año 2014 tiene lugar el domingo dia 22 de Junio . En esta fecha los católicos celebran una fiesta destinada a celebrar la Eucaristía.
-                    <a href="Noticias/Noticia-1/index.html">Leer noticias</a></p>
+                    <a href="Noticias/Noticia-1/index.html"></a></p>
                 </articule>
                   <articule class="noticias">
                     <img src="img/Noticias/descarga.jpg" alt="imagenes de la cofradia" class="imagenes" alt="Imagen de el logo de Pentecontes">
@@ -72,8 +69,8 @@
                   </articule>
                 <articule class="noticias">
                     <img src="img/Noticias/descarga-(1).jpg" alt="imagenes de la cofradia" class="imagenes" alt="Imagen de una noticia">
-                    <h3>Vivir a Dios dentro</h3>
-                    <p>Hace algunos años, el gran teólogo alemán, Karl Rahner, se atrevía a afirmar que el principal y más urgente problema de la Iglesia de nuestros tiempos es su “mediocridad espiritual”. Estas eran sus palabras: el verdadero problema de la Iglesia es “seguir tirando con una resignación y un tedio cada vez mayores por los caminos habituales de una mediocridad espiritual”.
+                    <h3>Dias 29 y 30 de Noviembre</h3>
+                    <p>II Feria Cofrade en Andalucia
                     <a href="Noticias/Noticia-2/index.html">Leer noticias</a></p>
                 </articule>
                 <articule class="noticias">
@@ -132,10 +129,9 @@
                   <p>Libro de la Coronacion de la Virgen de los Dolores</p>
               </figure>
               <figure class="publicaciones">
-                    <img src="img/Noticias/IMG-20140613-WA0011.jpg" class="portada">
-                    <p>Ante el repentino fallecimiento de Ismael Valero Torres, de la Ciudad de Baza, esta cofradia da su mas sentido pesame a su familia, y pide a Cristo y a la Santisima Virgen, a los que tanto amo en sus Imagenes Titulares por su eterno descanso, y de consuelo a su esposa, hija padres y hermanos.
-                      Seguro que ya en el cielo estara intercediendo, por su familia, y por este mundo cofrade y muy especial por las cofradias a las que pertenecio y seguira desde el Cielo.</p>
-                      <p>Que Nuestro Cristo y Nuestra Señora lo proteja</p>
+                    <p> DE NTRO. PADRE JESUS NAZARENO  5 EUROS SE GRATIFICA EL DONATIVO CON
+                        UNA TARGETA QUE JUEGA TODOS LOS  DOMINGOS CON EL GORDO DE LA PRIMITIVA<p>
+                        <p><strong>GRACIAS POR SU COLABORACION</strong></p> 
               </figure>
               <articucle id="paginas">
                 <h2>Hermandad Madrina</h2>
@@ -238,6 +234,25 @@
         <script>
           $(document).foundation();
         </script>
+        <script language="Javascript">
+             document.oncontextmenu = function() {
+                return false
+             }
+             function right(e) {
+                var msg = "Prohibido usar Click Derecho !!! ";
+                if (navigator.appName == 'Netscape' && e.which == 3) {
+                   alert(msg); //- Si no quieres asustar a tu usuario entonces quita esta linea...
+                   return false;
+                }
+                else if (navigator.appName == 'Microsoft Internet Explorer' && event.button==2) {
+                   alert(msg); //- Si no quieres asustar al usuario que utiliza IE,  entonces quita esta linea...
+                                  //- Aunque realmente se lo merezca...
+                return false;
+                }
+             return true;
+            }
+            document.onmousedown = right;
+        </script>
         <script>
           (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
           (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
@@ -248,5 +263,6 @@
           ga('send', 'pageview');
 
         </script>
+
     </body>
 </html>
